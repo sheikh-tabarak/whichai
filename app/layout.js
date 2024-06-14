@@ -1,6 +1,18 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 
+// import { Poppins } from 'next/font/google';
+
+import { Poppins } from "next/font/google";
+import Header from "@/components/header";
+
+const poppins = Poppins({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-poppins',
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
+});
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -10,8 +22,13 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html className={`${poppins.variable}`} lang="en">      
+      <body  className={`${poppins.variable}`}>
+      <div className="h-full w-full object-cover fixed top-0 right-auto left-auto -z-10 bg-slate-950"></div>
+        <video className='h-full w-full object-cover fixed top-0 right-auto left-auto -z-10' autoPlay loop muted src="bgparticles2.mp4"></video>
+        <Header />
+        {children}
+        </body>
     </html>
   );
 }
