@@ -14,17 +14,37 @@ const HomePage = () => {
   const [RecentCategories, setRecentCategories] = useState([])
   const [SearchText, setSearchText] = useState('')
   const [Refresh, setRefresh] = useState()
-  const [Tools, setTools] = useState([{}, {}, {}, {}, {}])
+  const [Tools, setTools] = useState([])
 
 
   useEffect(() => {
-    if (!RecentCategories) {
+    if (RecentCategories.length==0) {
       axios.get('/api/categories')
         .then(async response => {
 
           if (response.data) {
             console.log(response.data)
             setRecentCategories(response.data.slice(-5))
+
+            console.log(RecentCategories)
+          }
+        })
+        .catch(error => {
+          console.error('Error:', error);
+          console.error('Error response:', error.response);
+          console.error('Error message:', error.message);
+        });
+
+
+
+
+        axios.get('/api/aitool')
+        .then(async response => {
+
+          if (response.data) {
+            console.log(response.data)
+            setTools(response.data.slice(-8))
+            console.log(Tools)
           }
         })
         .catch(error => {
@@ -69,11 +89,10 @@ const HomePage = () => {
 
           <ul className="grid lg:flex gap-4">
             {
-              RecentCategories.map((category) => {
-                return <Link rel="stylesheet" href={`/api/aitool/category/${category._id}`} >
-                  <li className="border-white text-[12px] border-[1px] border-radius-1  rounded-full px-6 py-2 flex gap-2 cursor-pointer items-center hover:bg-white-200 hover:opacity-[0.8]">
+              RecentCategories.map((category,key) => {
+                return <li key={key} onClick={() => router.push('/category?id=' + category._id)} className="border-white text-[12px] border-[1px] border-radius-1  rounded-full px-6 py-2 flex gap-2 cursor-pointer items-center hover:bg-white-200 hover:opacity-[0.8]">
                     {category.name}</li>
-                </Link>
+                
               })
             }
 
@@ -86,8 +105,8 @@ const HomePage = () => {
       </div>
       <div className='flex flex-wrap py-4 justify-center'>
         {
-          Tools.map((blogItem, key) => {
-            return <ToolCard />
+          Tools.map((tool, key) => {
+            return <ToolCard key={key} tool={tool}  />
 
           })
         }

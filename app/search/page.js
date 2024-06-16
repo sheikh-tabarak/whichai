@@ -4,7 +4,7 @@ import Loading from '@/components/Loading';
 import ToolCard from '@/components/ToolCard'
 import axios from 'axios';
 import Link from 'next/link';
-import { useSearchParams } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 
 import React, { useEffect, useState } from 'react'
 
@@ -14,8 +14,8 @@ const Search = () => {
 
   const searchParams = useSearchParams();
   const Search = searchParams.get('search')
+  const router = useRouter();
 
-  // const [Loading, setLoading] = useState('')
   const [loading, setLoading] = useState(false)
   const [filtredTools, setfilteredTools] = useState([{}, {}, {}, {}, {}, {}, {}, {}]);
   const [SearchText, setSearchText] = useState('')
@@ -29,7 +29,9 @@ const Search = () => {
 
 
   useEffect(() => {
+
     setLoading(true)
+    router.push('/search?name='+SearchText)
     axios.get('/api/search?query=' + SearchText).then((response) => {
       setfilteredTools(response.data);
       console.log(response.data)
@@ -58,13 +60,13 @@ const Search = () => {
       </div>
 
 
-      {!loading&&SearchText?
+      {!loading?
         <div>
           <div className='text-left flex w-full py-6'>
             <div className="text-sm text-white text-left">{filtredTools?.length} Tools Found</div>
           </div>
           <div className='flex flex-wrap justify-start'>
-            {filtredTools.map((tool) => {
+            {filtredTools&&filtredTools.map((tool) => {
               return <ToolCard tool={tool}/>
 
             })}

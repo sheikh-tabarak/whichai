@@ -7,7 +7,7 @@ export async function GET(request, content) {
     const aitoolid = content.params.id
     await dbConnect();
     try {
-        const tool = await aitools.findById({ _id: aitoolid })
+        const tool = await aitools.findById({ _id: aitoolid }).populate('category').exec()
         return NextResponse.json(tool)
     } catch (error) {
         return NextResponse.json(error)

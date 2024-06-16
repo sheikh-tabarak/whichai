@@ -28,10 +28,18 @@ const AIToolManagementSystem = () => {
     tags: ['sd', 'asd'],
     posted_by: 'This is from New One',
     posted_by_email: 'test@gmail.com',
-    category: '666a198b327443cd6e8079bf'
+    category: '666f21e53e4d3207fbeb3f02'
   });
   const [categories, setCategories] = useState([]);
   const [tags, setTags] = useState([]);
+
+
+  const handleAddTags = (event) => {
+    console.log(event)
+    event.preventDefault(); // Prevent default form submission
+    // Your custom form submission logic here
+
+  };
 
   useEffect(() => {
 
@@ -71,6 +79,7 @@ const AIToolManagementSystem = () => {
   };
 
   const handleCategoryChange = (event) => {
+    console.log(event)
     const { value } = event.target;
     setCurrentTool({ ...CurrentTool, category: value });
   };
@@ -136,10 +145,9 @@ const AIToolManagementSystem = () => {
   };
 
   return (
-    <div className="container mx-auto p-4 pt-6 md:p-6 lg:p-12">
-      <h1 className="text-3xl font-bold mb-4">AI Tool Management System</h1>
-      <form onSubmit={handleSubmit}>
-        <div className="flex flex-wrap -mx-3 mb-6">
+    <div className="container mx-auto p-4 pt-6 md:p-6 lg:p-12 bg-white space-y-4">
+      <h1 className="text-3xl font-bold mb-4 ">AI Tool Management System</h1>
+      <form className='space-y-6' onSubmit={handleSubmit}>
           <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
             <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="name">
               Tool Name
@@ -153,11 +161,31 @@ const AIToolManagementSystem = () => {
               onChange={handleInputChange}
             />
           </div>
+
           <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+            <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="category">
+              Category
+            </label>
+            <select
+              className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white"
+              id="category"
+              name='category'
+              value={CurrentTool.category}
+              onChange={handleCategoryChange}
+            >
+              <option value="">Select a category</option>
+              {categories.map(category => (
+                <option key={category.id} value={category._id}>{category.name}</option>
+              ))}
+            </select>
+          </div>
+       
+        <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
             <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="description">
               Tool Description
             </label>
-            <textarea
+            <textarea 
+         rows={5}
               className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white"
               id="description"
               name='description'
@@ -165,8 +193,8 @@ const AIToolManagementSystem = () => {
               onChange={handleInputChange}
             />
           </div>
-        </div>
-        <div className="flex flex-wrap -mx-3 mb-6">
+
+
           <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
             <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="link">
               Tool Link
@@ -181,7 +209,9 @@ const AIToolManagementSystem = () => {
             />
           </div>
 
+          
 
+    
           <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
             <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="posted_by">
               Posted By
@@ -195,43 +225,7 @@ const AIToolManagementSystem = () => {
               onChange={handleInputChange}
             />
           </div>
-        </div>
-        <div className="flex flex-wrap -mx-3 mb-6">
-          {/* <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-            <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="category">
-              Category
-            </label>
-            <select
-              className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white"
-              id="category"
-              name='category'
-              value={newTool.category}
-              onChange={handleCategoryChange}
-            >
-              <option value="">Select a category</option>
-              {categories.map(category => (
-                <option key={category.id} value={category.name}>{category.name}</option>
-              ))}
-            </select>
-          </div> */}
-          <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-            {/* <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="tags">
-              Tags
-            </label>
-            <select
-              className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white"
-              id="tags"
-              value={newTool.tags}
-              onChange={handleTagChange}
-              multiple
-            >
-              <option value="">Select a tag</option>
-              {tags.map(tag => (
-                <option key={tag.id} value={tag.name}>{tag.name}</option>
-              ))}
-            </select> */}
-          </div>
-
+        
           <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
             <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="posted_by_email">
               Email Posted
@@ -245,7 +239,11 @@ const AIToolManagementSystem = () => {
               onChange={handleInputChange}
             />
           </div>
-        </div>
+        <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+            <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="category">
+              Category
+            </label>
+          </div>
         <button
           className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded"
           type="submit"
@@ -253,22 +251,6 @@ const AIToolManagementSystem = () => {
           Add Tool
         </button>
       </form>
-      {/* <ul className="list-none mb-0">
-        {tools.map(tool => (
-          <li key={tool.id} className="py-4 border-b border-gray-200">
-            <h2 className="text-lg font-bold">{tool.name}</h2>
-            <p className="text-gray-600">{tool.description}</p>
-            <p className="text-gray-600">Posted by: {tool.postedBy}</p>
-            <p className="text-gray-600">Category: {tool.category}</p>
-            <button
-              className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
-              onClick={() => handleDelete(tool.id)}
-            >
-              Delete
-            </button>
-          </li>
-        ))}
-      </ul> */}
     </div>
   );
 };
