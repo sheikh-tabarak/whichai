@@ -3,7 +3,7 @@ import Loading from '@/app/components/Loading';
 import ToolCard from '@/app/components/ToolCard';
 import axios from 'axios';
 import Link from 'next/link';
-import { useRouter, useSearchParams } from 'next/navigation'
+import { useRouter } from 'next/navigation'
 import React, { useEffect, useState } from 'react'
 
 const CatgeoryTools = ({ params }) => {
