@@ -72,8 +72,8 @@ const Search = () => {
               <div className="text-sm text-white text-left">{filtredTools?.length} Tools Found</div>
             </div>
             <div className='flex flex-wrap justify-start'>
-              {filtredTools?.length > 0 ? filtredTools.map((tool) => {
-                return <ToolCard tool={tool} />
+              {filtredTools?.length > 0 ? filtredTools.map((tool,key) => {
+                return <ToolCard key={key} tool={tool} />
 
               }) : <div className='h-screen w-full flex justify-center text-white'>
                 <div className='space-y-4 text-center'>

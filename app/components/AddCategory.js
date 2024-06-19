@@ -167,8 +167,8 @@ const AddCategory = () => {
 
             <div>
                 {
-                    CategoryList.map((category) => {
-                        return <div>
+                    CategoryList.map((category,key) => {
+                        return <div key={key}>
 
                             {category.name} - {category._id}
 

@@ -3,7 +3,7 @@ import { useRouter } from 'next/navigation';
 import React from 'react'
 import { MdCheckCircleOutline } from 'react-icons/md'
 
-const page = () => {
+const Submitted = () => {
     const router = useRouter();
     return (
         <div className='pt-16 pb-16 h-screen'>
@@ -20,4 +20,4 @@ const page = () => {
         </div>
     )
 }
-export default page
+export default Submitted

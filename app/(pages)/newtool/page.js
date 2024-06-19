@@ -154,9 +154,9 @@ const AddNewTool = () => {
         console.log(response.data);
       })
       .catch(error => {
-        console.error('Error:', error);
-        console.error('Error response:', error.response);
-        console.error('Error message:', error.message);
+        console.error(error);
+        console.error( error.response);
+        console.error( error.message);
       });
   };
 
@@ -177,10 +177,8 @@ const AddNewTool = () => {
     <>
     <title>Submit a new Tool - Which AI</title>
     <meta name='title' content='Submit a new Tool - Which AI' />
-    <meta name="description" content="" />
 
-
-    <div className="px-6 lg:px-16 py-12">
+    <div className='px-6 lg:px-16 py-12'>
     <div className='lg:flex gap-6 w-full'>
 
       <div className='space-y-6 lg:w-2/3'>
@@ -305,12 +303,12 @@ const AddNewTool = () => {
         </div>
 
           <ul className=' text-white px-4 text-xs space-y-2'>
-            {!CurrentTool.name&&<li className='text-slate-500 flex gap-1 items-center'><span className='text-red-500'><MdCancel/></span>Tool name can't be empty</li>}
-            {!CurrentTool.description&&<li className='text-slate-500 flex gap-1 items-center'><span className='text-red-500'><MdCancel/></span>Tool Description can't be empty</li>}
-            {!CurrentTool.category&&<li className='text-slate-500 flex gap-1 items-center'><span className='text-red-500'><MdCancel/></span>Tool Category can't be empty</li>}
-            {!CurrentTool.link&&<li className='text-slate-500 flex gap-1 items-center'><span className='text-red-500'><MdCancel/></span>Tool Link can't be empty</li>}
+            {!CurrentTool.name&&<li className='text-slate-500 flex gap-1 items-center'><span className='text-red-500'><MdCancel/></span>Tool name cannot be empty</li>}
+            {!CurrentTool.description&&<li className='text-slate-500 flex gap-1 items-center'><span className='text-red-500'><MdCancel/></span>Tool Description cannot be empty</li>}
+            {!CurrentTool.category&&<li className='text-slate-500 flex gap-1 items-center'><span className='text-red-500'><MdCancel/></span>Tool Category cannot be empty</li>}
+            {!CurrentTool.link&&<li className='text-slate-500 flex gap-1 items-center'><span className='text-red-500'><MdCancel/></span>Tool Link cannot be empty</li>}
 
-            {!CurrentTool.posted_by&&<li className='text-slate-500 flex gap-1 items-center'><span className='text-red-500'><MdCancel/></span>Name for credits can't be empty</li>}
+            {!CurrentTool.posted_by&&<li className='text-slate-500 flex gap-1 items-center'><span className='text-red-500'><MdCancel/></span>Name for credits cannot be empty</li>}
             {!CurrentTool.posted_by_email&&<li className='text-slate-500 flex gap-1 items-center'><span className='text-red-500'><MdCancel/></span>Email is required</li>}
 
            
