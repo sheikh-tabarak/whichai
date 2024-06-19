@@ -16,30 +16,30 @@ export async function GET(request, content) {
     }
 }
 
-export async function PUT(request, content) {
+// export async function PUT(request, content) {
 
-    const categoryid = content.params.id
-    const body = await request.json();
+//     const categoryid = content.params.id
+//     const body = await request.json();
 
-    await dbConnect();
+//     await dbConnect();
 
-    try {
-        const data = await categories.updateOne({ _id: categoryid }, { $set: body });
-        return NextResponse.json({ data, ok: true });
-    } catch (error) {
-        console.error(error);
-        return NextResponse.json(error);
-    }
+//     try {
+//         const data = await categories.updateOne({ _id: categoryid }, { $set: body });
+//         return NextResponse.json({ data, ok: true });
+//     } catch (error) {
+//         console.error(error);
+//         return NextResponse.json(error);
+//     }
 
-}
+// }
 
-export async function DELETE(request, content) {
+// export async function DELETE(request, content) {
 
-    const categoryid = content.params.id
+//     const categoryid = content.params.id
 
-    await dbConnect();
-    const result = await categories.deleteOne({ _id: categoryid })
-    return NextResponse.json({ ok: true, result })
+//     await dbConnect();
+//     const result = await categories.deleteOne({ _id: categoryid })
+//     return NextResponse.json({ ok: true, result })
 
-}
+// }
 

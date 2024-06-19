@@ -34,7 +34,7 @@ const CatgeoryTools = ({ params }) => {
 
   return (
     loading ? <Loading /> :
-      <div className=' gap-4 p-8 lg:p-16 text-white w-full justify-center'>
+      <div className=' gap-4 p-8 lg:p-14 text-white w-full justify-center'>
         <div className=' bg-slate-950 rounded-md border-[0.5px] border-slate-500 p-6 lg:p-8'>
           <div className='lg:flex gap-8 '>
             <div className='flex justify-center'>
@@ -54,7 +54,7 @@ const CatgeoryTools = ({ params }) => {
   border-l-[10px] border-l-transparent'>
           </div>
         </div>
-        {/* <div className='flex flex-wrap text-center pt-10'> */}
+
         <div className='flex flex-wrap justify-center pt-10'>
           {filtredTools?.map((tool, key) => {
             return <ToolCard key={key} tool={tool} />

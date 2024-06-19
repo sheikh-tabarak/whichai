@@ -4,8 +4,12 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { MdCancel, MdCheck, MdCheckCircle, MdErrorOutline } from "react-icons/md";
 import ToolCard from '@/app/components/ToolCard';
+import { useRouter } from 'next/navigation';
 
 const AddNewTool = () => {
+
+  const router = useRouter();
+
 
   const [Errors,setErrors] = useState(['Name can\'t be empty','Message cannt be empty'])
 
@@ -129,6 +133,9 @@ const AddNewTool = () => {
       .then(async response => {
 
         if (response.data.ok) {
+          
+          router.replace('/submitted')
+
           setCurrentTool({
             name: '',
             description: '',
@@ -137,8 +144,12 @@ const AddNewTool = () => {
             tags: [],
             posted_by: '',
             posted_by_email: '',
-            category: '6668c7cbb462421da75559f2'
+            category: ''
           });
+
+          setTags([])
+
+
         }
         console.log(response.data);
       })
@@ -150,15 +161,15 @@ const AddNewTool = () => {
   };
 
 
-  const handleDelete = (id) => {
-    axios.delete(`/api/tools/${id}`)
-      .then(response => {
-        setTools(tools.filter(tool => tool.id !== id));
-      })
-      .catch(error => {
-        console.error(error);
-      });
-  };
+  // const handleDelete = (id) => {
+  //   axios.delete(`/api/tools/${id}`)
+  //     .then(response => {
+  //       setTools(tools.filter(tool => tool.id !== id));
+  //     })
+  //     .catch(error => {
+  //       console.error(error);
+  //     });
+  // };
 
 
   return (

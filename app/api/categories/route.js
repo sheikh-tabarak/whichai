@@ -14,18 +14,18 @@ export async function GET(request) {
     }
 }
 
-export async function POST(request) {
+// export async function POST(request) {
 
-    await dbConnect()
+//     await dbConnect()
 
-    const body = await request.json();
+//     const body = await request.json();
 
-    try {
-        const category = new categories(body);
-        const data = await category.save();
-        return NextResponse.json({ data, ok: true });
-    } catch (error) {
-        console.error(error);
-        return NextResponse.json(error);
-    }
-}
+//     try {
+//         const category = new categories(body);
+//         const data = await category.save();
+//         return NextResponse.json({ data, ok: true });
+//     } catch (error) {
+//         console.error(error);
+//         return NextResponse.json(error);
+//     }
+// }

@@ -47,7 +47,7 @@ const AITool = ({ params }) => {
       <>
 
         <div className='lg:flex gap-4 p-8 lg:p-28 text-white w-full justify-center'>
-          
+
           <title>{Tool?.name && Tool.name} | Which AI</title>
 
           <div className='lg:w-1/3 text-center  '>
@@ -81,8 +81,8 @@ const AITool = ({ params }) => {
 
             <div className='flex-wrap flex items-center gap-2 pt-5 mt-5 border-t-[1px] border-slate-700 '>
               <div className='text-base font-semibold'>Tags:</div>
-              {Tool?.tags?.map((tag) => {
-                return <span className='px-4 py-1 rounded-full border-gray-300 border-[1px] text-[10px] text-white uppercase cursor-pointer'>{tag}</span>
+              {Tool?.tags?.map((tag, key) => {
+                return <span key={key} className='px-4 py-1 rounded-full border-gray-300 border-[1px] text-[10px] text-white uppercase cursor-pointer'>{tag}</span>
               })}
             </div>
 

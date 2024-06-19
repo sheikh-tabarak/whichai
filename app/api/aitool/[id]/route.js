@@ -14,29 +14,29 @@ export async function GET(request, content) {
     }
 }
 
-export async function PUT(request, content) {
+// export async function PUT(request, content) {
 
-    const aitoolsid = content.params.id
-    const body = await request.json();
+//     const aitoolsid = content.params.id
+//     const body = await request.json();
 
-    await dbConnect();
+//     await dbConnect();
 
-    try {
-        const data = await aitools.updateOne({ _id: aitoolsid }, { $set: body });
-        return NextResponse.json({ data, ok: true });
-    } catch (error) {
-        console.error(error);
-        return NextResponse.json(error);
-    }
+//     try {
+//         const data = await aitools.updateOne({ _id: aitoolsid }, { $set: body });
+//         return NextResponse.json({ data, ok: true });
+//     } catch (error) {
+//         console.error(error);
+//         return NextResponse.json(error);
+//     }
 
-}
+// }
 
-export async function DELETE(request, content) {
+// export async function DELETE(request, content) {
 
-    const aitoolid = content.params.id
+//     const aitoolid = content.params.id
 
-    await dbConnect();
-    const result = await aitools.deleteOne({ _id: aitoolid })
-    return NextResponse.json({ ok: true, result })
+//     await dbConnect();
+//     const result = await aitools.deleteOne({ _id: aitoolid })
+//     return NextResponse.json({ ok: true, result })
 
-}
+// }

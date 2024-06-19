@@ -63,8 +63,8 @@ export default function Home() {
       <div
         className={`bg-center bg-no-repeat  bg-cover flex gap-6 flex-col items-center justify-between pt-16 pb-16`}
       >
-        <h2 className="text-3xl lg:text-6xl font-extrabold text-white">Explore Al's Around </h2>
-        <div className='text-white px-4 leading-9  text-center lg:pb-6'>Unlock AI's Potential: Discover <span className='bg-white text-black rounded-md mx-1 px-2 py-1'>2500+</span> Tools to Supercharge Your Workflow and Productivity</div>
+        <h2 className="text-3xl lg:text-6xl font-extrabold text-white">Explore Als Around </h2>
+        <div className='text-white px-4 leading-9  text-center lg:pb-6'>Unlock AIs Potential: Discover <span className='bg-white text-black rounded-md mx-1 px-2 py-1'>2500+</span> Tools to Supercharge Your Workflow and Productivity</div>
 
         <div className="w-[300px] lg:w-[700px] relative">
           <form action="">
@@ -83,10 +83,10 @@ export default function Home() {
           </form>
         </div>
 
-        <div className='text-white'>
-          <h3 className="py-4">Recent Categories:</h3>
+        <div className='text-white text-center'>
+          <h3 className="py-4 ">Recent Categories:</h3>
 
-          {RecentCategories?<ul className="flex flex-wrap lg:flex gap-4">
+          {RecentCategories?<ul className="flex flex-wrap lg:flex justify-center gap-4">
             {
               RecentCategories.map((category, key) => {
                 return <li key={key} onClick={() => router.push('/category/' + category._id)} className="border-white text-[12px] border-[1px] border-radius-1  rounded-full px-6 py-2 flex gap-2 cursor-pointer items-center hover:bg-white-200 hover:opacity-[0.8]">
