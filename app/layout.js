@@ -6,6 +6,7 @@ import "./globals.css";
 import { Poppins } from "next/font/google";
 import Header from "@/app/components/header";
 import Footer from "@/app/components/footer";
+import { ErrorBoundary } from "next/dist/client/components/error-boundary";
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -23,6 +24,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
+    <ErrorBoundary>
     <html className={`${poppins.variable}`} lang="en">   
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />   
       <body  className={`${poppins.variable}`}>
@@ -34,5 +36,6 @@ export default function RootLayout({ children }) {
         <Footer/>
         </body>
     </html>
+    </ErrorBoundary>
   );
 }
