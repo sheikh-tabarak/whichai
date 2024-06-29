@@ -32,8 +32,6 @@ const AITool = ({ params }) => {
     axios.get('/api/aitool/' + params.id).then((response) => {
       setTool(response.data)
       console.log(response.data)
-      console.log('response.data')
-      console.log(Tool)
       setLoading(false)
 
     }).catch((e) => {
