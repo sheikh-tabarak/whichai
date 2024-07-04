@@ -31,7 +31,6 @@ const AITool = ({ params }) => {
   useEffect(() => {
     axios.get('/api/aitool/' + params.id).then((response) => {
       setTool(response.data)
-      console.log(response.data)
       setLoading(false)
 
     }).catch((e) => {
