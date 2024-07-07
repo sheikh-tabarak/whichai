@@ -21,22 +21,22 @@ export default function Home() {
 
   useEffect(() => {
 
-    // if (RecentCategories.length == 0) {
+    if (RecentCategories.length == 0) {
 
-    //   axios.get('/api/categories')
-    //     .then(async response => {
+      axios.get('/api/categories')
+        .then(async response => {
 
-    //       if (response.data) {
-    //         setRecentCategories(response.data)
-    //       }
-    //     })
-    //     .catch(error => {
-    //       console.error('Error:', error);
-    //       console.error('Error response:', error.response);
-    //       console.error('Error message:', error.message);
-    //     });
+          if (response.data) {
+            setRecentCategories(response.data)
+          }
+        })
+        .catch(error => {
+          console.error('Error:', error);
+          console.error('Error response:', error.response);
+          console.error('Error message:', error.message);
+        });
 
-    // }
+    }
 
     if (AITools.length == 0) {
 
@@ -69,7 +69,6 @@ export default function Home() {
             <input value={SearchText} onChange={
               (e) => {
                 setSearchText(e.target.value);
-                // console.log(SearchText)
               }
             } className="flex rounded-lg p-[20px] w-full" type="text" name="search" placeholder="Search the best AI Tool" />
 
@@ -84,7 +83,7 @@ export default function Home() {
         <div className='text-white text-center'>
           <h3 className="py-4 ">Recent Categories:</h3>
 
-          {/* {RecentCategories ? <ul className="flex flex-wrap lg:flex justify-center gap-4">
+          {RecentCategories ? <ul className="flex flex-wrap lg:flex justify-center gap-4">
             {
               RecentCategories?.map((category, key) => {
                 return <li key={key} onClick={() => router.push('/category/' + category._id)} className="border-white text-[12px] border-[1px] border-radius-1  rounded-full px-6 py-2 flex gap-2 cursor-pointer items-center hover:bg-white-200 hover:opacity-[0.8]">
@@ -92,7 +91,7 @@ export default function Home() {
               })
             }
 
-          </ul> : <Loading />} */}
+          </ul> : <Loading />}
         </div>
       </div>
 
