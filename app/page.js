@@ -82,7 +82,7 @@ export default function Home() {
 
           {RecentCategories ? <ul className="flex flex-wrap lg:flex justify-center gap-4">
             {
-              RecentCategories.map((category, key) => {
+              RecentCategories?.map((category, key) => {
                 return <li key={key} onClick={() => router.push('/category/' + category._id)} className="border-white text-[12px] border-[1px] border-radius-1  rounded-full px-6 py-2 flex gap-2 cursor-pointer items-center hover:bg-white-200 hover:opacity-[0.8]">
                   {category.name}</li>
               })
@@ -98,7 +98,7 @@ export default function Home() {
 
       {Tools ? <div className='flex flex-wrap py-4 justify-center'>
         {
-          Tools.map((tool, key) => {
+          Tools?.map((tool, key) => {
             return <ToolCard key={key} tool={tool} />
 
           })
