@@ -15,12 +15,11 @@ const Search = () => {
   const router = useRouter();
 
   const [loading, setLoading] = useState(false);
-  const [filtredTools, setfilteredTools] = useState([{}, {}, {}, {}, {}, {}, {}, {}]);
+  const [filtredTools, setfilteredTools] = useState([{}]);
   const [SearchText, setSearchText] = useState('');
 
   useEffect(() => {
     setLoading(true);
-    console.log(Search);
     setSearchText(Search);
     setLoading(false);
   }, []);
@@ -32,13 +31,11 @@ const Search = () => {
 
     axios.get('/api/search?query=' + SearchText).then((response) => {
       setfilteredTools(response.data);
-      console.log(response.data);
       setLoading(false);
 
     }).catch((e) => {
-      console.log(e);
     });
-
+    
     router.push('/search?search=' + SearchText);
 
   }, [SearchText]);
@@ -55,7 +52,6 @@ const Search = () => {
           <form action="">
             <input value={SearchText} onChange={(e) => {
               setSearchText(e.target.value);
-              console.log(SearchText);
             }} className="flex rounded-lg p-5 bg-white w-full" type="text" name="search" placeholder="Search the best AI Tool" />
 
             <Link rel="stylesheet" href={`/search?search=${SearchText}`}>

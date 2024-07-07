@@ -7,19 +7,6 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation'
 import React, { useEffect, useState } from 'react'
 
-
-// export async function generateMetadata({ params, searchParams }, parent) {
-//   const id = params.id;
-//   const data = await parent.fetch('/api/aitool/' + id);
-//   const tool = await data.json();
-
-//   return {
-//     title: tool.name,
-//     description: tool.description,
-//   };
-// }
-
-
 const AITool = ({ params }) => {
 
 
@@ -29,12 +16,14 @@ const AITool = ({ params }) => {
   const navigator = useRouter()
 
   useEffect(() => {
-    axios.get('/api/aitool/' + params.id).then((response) => {
-      setTool(response.data)
+
+    
+    axios.get('/api/aitool/' + params?.id).then((response) => {
+      setTool(response?.data)
       setLoading(false)
 
     }).catch((e) => {
-      console.log(e)
+
     })
   }, [])
 
@@ -101,19 +90,3 @@ const AITool = ({ params }) => {
 }
 
 export default AITool
-
-
-// export async function getStaticProps({ params }) {
-//   const id = params.id;
-//   const data = await axios.get('/api/aitool/' + id).then((response) => response.data);
-//   return {
-//     props: {
-//       tool: data,
-//     },
-//     metadata: {
-//       title: data.name,
-//       description: data.description,
-//     },
-//   };
-// }
-
