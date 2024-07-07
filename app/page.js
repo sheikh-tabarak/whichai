@@ -18,6 +18,25 @@ export default function Home() {
   const [Refresh, setRefresh] = useState()
   const [AITools, setAITools] = useState([])
 
+  useEffect(()=>{
+    if (AITools.length == 0) {
+
+      axios.get('/api/aitool')
+        .then(async response => {
+
+          if (response.data) {
+            setAITools(response.data)
+          }
+        })
+        .catch(error => {
+          console.error('Error:', error);
+          console.error('Error response:', error.response);
+          console.error('Error message:', error.message);
+        });
+
+    }
+  })
+
 
   useEffect(() => {
 
@@ -38,22 +57,6 @@ export default function Home() {
 
     }
 
-    if (AITools.length == 0) {
-
-      axios.get('/api/aitool')
-        .then(async response => {
-
-          if (response.data) {
-            setAITools(response.data)
-          }
-        })
-        .catch(error => {
-          console.error('Error:', error);
-          console.error('Error response:', error.response);
-          console.error('Error message:', error.message);
-        });
-
-    }
   })
 
   return (
