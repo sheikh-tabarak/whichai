@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import ToolCard from "./components/ToolCard";
 import { CiSearch } from "react-icons/ci";
 import Loading from "./components/Loading";
+import { ErrorBoundary } from "next/dist/client/components/error-boundary";
 
 
 export default function Home() {
@@ -61,6 +62,8 @@ export default function Home() {
 
   return (
     <>
+
+    <ErrorBoundary fallback={<p>Something went wrong</p>}>
       <div
         className={`bg-center bg-no-repeat  bg-cover flex gap-6 flex-col items-center justify-between pt-16 pb-16`}
       >
@@ -110,6 +113,8 @@ export default function Home() {
           })
         }
       </div> : <Loading />}
+
+      </ErrorBoundary>
 
     </>
   );
