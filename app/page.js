@@ -7,6 +7,7 @@ import ToolCard from "./components/ToolCard";
 import { CiSearch } from "react-icons/ci";
 import Loading from "./components/Loading";
 import { ErrorBoundary } from "next/dist/client/components/error-boundary";
+import { MdSearchOff } from 'react-icons/md';
 
 
 export default function Home() {
