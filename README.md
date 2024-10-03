@@ -7,7 +7,7 @@ This repository contains the code for a **Which AI** that provides your ultimate
 
 | Frontend/Client      | Backend/Server      | Database |
 |----------------------|---------------------|----------|
-| React.js             | Node.js             | MongoDB  |
+| Next.js              | Next.js             | MongoDB  |
 
 
 | Extended Dependencies |
