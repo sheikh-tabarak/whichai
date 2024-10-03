@@ -28,14 +28,16 @@ const Search = () => {
   useEffect(() => {
 
     setLoading(true);
+    try {
+      axios.get('/api/search?query=' + SearchText).then((response) => {
+        setfilteredTools(response.data);
+        setLoading(false);
 
-    axios.get('/api/search?query=' + SearchText).then((response) => {
-      setfilteredTools(response.data);
-      setLoading(false);
+      }).catch((e) => {
+      });
+    } catch (error) {
+    }
 
-    }).catch((e) => {
-    });
-    
     router.push('/search?search=' + SearchText);
 
   }, [SearchText]);
