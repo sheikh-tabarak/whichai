@@ -23,7 +23,9 @@ export default function Home() {
 
   useEffect(() => {
 
-    setLoading(true);
+          setLoading(true);
+
+    if(filtredTools.length==0){
     try {
       axios.get('/api/search?query=' + SearchText).then((response) => {
         setfilteredTools(response.data);
@@ -33,7 +35,8 @@ export default function Home() {
       });
     } catch (error) {
     }
-  }, []);
+    }
+  });
 
 
   useEffect(() => {
