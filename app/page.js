@@ -18,47 +18,47 @@ export default function Home() {
   const [RecentCategories, setRecentCategories] = useState([])
   const [SearchText, setSearchText] = useState('')
   const [Refresh, setRefresh] = useState()
-  const [filtredTools, setfilteredTools] = useState([{}]);
+  const [filtredTools, setfilteredTools] = useState([]);
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
 
-          setLoading(true);
-
-    if(filtredTools.length==0){
-    try {
-      axios.get('/api/search?query=' + SearchText).then((response) => {
-        setfilteredTools(response.data);
-        setLoading(false);
-
-      }).catch((e) => {
-      });
-    } catch (error) {
-    }
-    }
-  });
-
-
-  useEffect(() => {
-
     if (RecentCategories.length == 0) {
-
+      setLoading(true)
       axios.get('/api/categories')
         .then(async response => {
-
           if (response.data) {
+            setLoading(false)
+
             setRecentCategories(response.data)
           }
+          console.log(response.data)
         })
         .catch(error => {
           console.error('Error:', error);
           console.error('Error response:', error.response);
           console.error('Error message:', error.message);
         });
-
     }
 
-  }, [])
+
+    if (filtredTools.length == 0) {
+      setLoading(true)
+      axios.get('/api/aitool')
+        .then(async response => {
+          if (response.data) {
+            setLoading(false)
+            setfilteredTools(response.data)
+          }
+          console.log(response.data)
+        })
+        .catch(error => {
+          console.error('Error:', error);
+          console.error('Error response:', error.response);
+          console.error('Error message:', error.message);
+        });
+    }
+  })
 
   return (
     <>
@@ -100,26 +100,26 @@ export default function Home() {
             </ul> : <Loading />}
           </div>
         </div>
- <div className='flex justify-center w-full py-2'>
-                <div className="text-2xl font-semibold text-white py-6">Popular AI Tools</div>
-              </div>
+        <div className='flex justify-center w-full py-2'>
+          <div className="text-2xl font-semibold text-white py-6">Popular AI Tools</div>
+        </div>
         {!loading ?
           <div>
-
             <div className='flex flex-wrap justify-center'>
-             
               {filtredTools?.length > 0 ? filtredTools.map((tool, key) => {
                 return <ToolCard key={key} tool={tool} />;
-
-              }) : <div className='h-screen w-full flex justify-center text-white'>
-                <div className='space-y-4 text-center'>
-                  <div className='flex w-full justify-center text-slate-500 text-8xl'>
-                    <MdSearchOff /></div>
-                  <div className='text-slate-200 text-2xl'>No Tool Found</div>
-                  <div className='text-slate-400'>Try changing the keywords to find the tools</div>
-                </div>
-              </div>}
-            </div></div> : <Loading />}
+              }) :
+                <div className='h-screen w-full flex justify-center text-white'>
+                  <div className='space-y-4 text-center'>
+                    <div className='flex w-full justify-center text-slate-500 text-8xl'>
+                      <MdSearchOff /></div>
+                    <div className='text-slate-200 text-2xl'>No Tool Found</div>
+                    <div className='text-slate-400'>Try changing the keywords to find the tools</div>
+                  </div>
+                </div>}
+            </div></div> :
+          <Loading />
+        }
 
         {/* <div className='flex justify-center w-full'>
           <div className="text-2xl font-semibold text-white py-6">Popular AI Tools</div>
