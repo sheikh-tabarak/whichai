@@ -224,7 +224,7 @@ const ToolsDirectory = () => {
                             <MdSearchOff size={80} />
                         </div>
                         <div className="space-y-2">
-                            <h3 className="text-3xl font-bold text-white">No tools found</h3>
+                            <h2 className="text-3xl font-bold text-white">No tools found</h2>
                             <p className="text-slate-500 text-lg max-w-md mx-auto">
                                 We couldn't find any tools matching your current selection. Try adjusting your filters or search query.
                             </p>

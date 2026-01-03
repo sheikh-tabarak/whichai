@@ -48,7 +48,7 @@ export default function HomePage() {
                 setLoading(true);
                 const [categoriesRes, toolsRes] = await Promise.allSettled([
                     axios.get('/api/categories'),
-                    axios.get('/api/aitool')
+                    axios.get('/api/aitool', { params: { limit: 12 } })
                 ]);
 
                 if (categoriesRes.status === 'fulfilled' && categoriesRes.value.data) {
@@ -56,7 +56,7 @@ export default function HomePage() {
                 }
 
                 if (toolsRes.status === 'fulfilled' && toolsRes.value.data) {
-                    setfilteredTools(toolsRes.value.data);
+                    setfilteredTools(toolsRes.value.data.tools);
                 }
             } catch (error) {
                 console.error("Error fetching data", error);

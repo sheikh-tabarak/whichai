@@ -47,14 +47,15 @@ const Footer = () => {
                         </p>
                         <div className='flex gap-4 md:gap-5 justify-center md:justify-start'>
                             {[
-                                { icon: <FaGithub />, href: 'https://github.com/sheikh-tabarak/whichai' },
-                                { icon: <FaLinkedin />, href: 'https://linkedin.com/in/sheikhtabarak' },
-                                { icon: <FaInstagram />, href: 'https://instagram.com/sheikhtabarak.me' }
+                                { icon: <FaGithub />, href: 'https://github.com/sheikh-tabarak/whichai', label: "GitHub Profile" },
+                                { icon: <FaLinkedin />, href: 'https://linkedin.com/in/sheikhtabarak', label: "LinkedIn Profile" },
+                                { icon: <FaInstagram />, href: 'https://instagram.com/sheikhtabarak.me', label: "Instagram Profile" }
                             ].map((social, i) => (
                                 <Link
                                     key={i}
                                     target='_blank'
                                     href={social.href}
+                                    aria-label={social.label}
                                     className="w-10 h-10 md:w-12 md:h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 hover:text-white hover:bg-white/10 hover:border-blue-500/50 transition-all duration-300"
                                 >
                                     {social.icon}
@@ -94,7 +95,7 @@ const Footer = () => {
 
                     <div className='flex items-center gap-4'>
                         <span className='px-3 py-1 rounded-lg bg-green-900/20 border border-green-500/20 text-green-500 text-xs font-mono'>v2.0.0</span>
-                        <span className='text-slate-600 text-xs font-bold uppercase tracking-widest'>© 2026 Which AI</span>
+                        <span className='text-slate-500 text-xs font-bold uppercase tracking-widest'>© 2026 Which AI</span>
                     </div>
                 </div>
             </div>

@@ -3,9 +3,10 @@ import dbConnect from "../../server";
 import aitools from "@/models/aitool";
 
 export async function GET(request, { params }) {
-    const { slug } = await params;
-    await dbConnect();
     try {
+        const { slug } = await params;
+        await dbConnect();
+
         // Try finding by slug first, then by ID as fallback
         let tool = await aitools.findOne({ slug }).populate('category').exec();
 
@@ -19,7 +20,7 @@ export async function GET(request, { params }) {
 
         return NextResponse.json(tool);
     } catch (error) {
-        console.error(error);
-        return NextResponse.json(error, { status: 500 });
+        console.error("API Error:", error);
+        return NextResponse.json({ error: error.message }, { status: 500 });
     }
 }

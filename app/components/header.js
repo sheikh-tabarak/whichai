@@ -54,6 +54,7 @@ const Header = () => {
             <button
               onClick={() => router.push('/search?search=')}
               className='p-2.5 text-slate-400 hover:text-white hover:bg-white/5 rounded-xl transition-all'
+              aria-label="Open Search"
             >
               <FiSearch size={20} />
             </button>
@@ -70,6 +71,7 @@ const Header = () => {
         <button
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           className="md:hidden p-2 text-white relative z-[100]"
+          aria-label="Toggle Mobile Menu"
         >
           {isMobileMenuOpen ? <FiX size={24} /> : <FiMenu size={24} />}
         </button>
