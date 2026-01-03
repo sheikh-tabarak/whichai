@@ -1,5 +1,6 @@
 'use client'
 import Loading from '@/app/components/Loading';
+import ToolIcon from '@/app/components/ToolIcon';
 import axios from 'axios';
 import { generateMetadata } from 'next';
 import Head from 'next/head';
@@ -17,7 +18,7 @@ const AITool = ({ params }) => {
 
   useEffect(() => {
 
-    
+
     axios.get('/api/aitool/' + params?.id).then((response) => {
       setTool(response?.data)
       setLoading(false)
@@ -39,7 +40,7 @@ const AITool = ({ params }) => {
           <div className='lg:w-1/3 text-center  '>
             <div className='flex justify-center sticky top-48 items-center'>
               <div>
-                <img src={Tool?.image ? Tool.image : Tool?.category?.icon ? Tool.category.icon : 'https://images.ai-finder.net/logos/no-logo.png'} alt="AI Tool" className=' w-60 h-60  rounded' />
+                <ToolIcon tool={Tool} className=' w-60 h-60  rounded' />
                 <div className='flex justify-center lg:hidden'>
                   <div className='  w-0 h-0 
   border-r-[10px] border-r-transparent

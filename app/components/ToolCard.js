@@ -1,6 +1,8 @@
 import { useRouter } from 'next/navigation'
 import React from 'react'
 
+import ToolIcon from './ToolIcon'
+
 const ToolCard = ({ key, tool }) => {
 
     const router = useRouter();
@@ -13,7 +15,7 @@ const ToolCard = ({ key, tool }) => {
             <div className='space-y-5 text-center w-full'>
 
                 <div className='w-full flex justify-center'>
-                    <img className='w-20 h-20 rounded-lg' src={tool?.image ? tool.image : tool?.category?.icon ? tool.category.icon : 'https://images.ai-finder.net/logos/no-logo.png'} alt={tool ? tool.name : 'Tool'} />
+                    <ToolIcon tool={tool} className='w-20 h-20 rounded-lg' />
                 </div>
                 <h4 onClick={() => router.push('/tool/' + tool?._id)} className='cursor-pointer text-white text-lg font-semibold'>{tool?.name ? tool.name : 'Lorem Ispum'}</h4>
                 <div className='flex-wrap flex gap-2 justify-center'>
