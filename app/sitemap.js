@@ -1,21 +1,30 @@
 import dbConnect from "./api/server";
 import aitools from "@/models/aitool";
 import categories from "@/models/categories";
+import fallbackData from "./lib/fallbackData.json";
 
 export default async function sitemap() {
     const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://whichai.sheikhtabarak.me';
 
-    // 1. Fetch Dynamic Data
-    await dbConnect();
+    let allTools = [];
+    let allCategories = [];
 
-    // Fetch all tools (slug & updatedAt)
-    const allTools = await aitools.find({ status: true }, 'slug dataCreated').lean();
+    // 1. Fetch Dynamic Data with Catch
+    try {
+        await dbConnect();
+        allTools = await aitools.find({ status: true }, 'slug dataCreated').lean();
+        allCategories = await categories.find({}, 'name slug').lean();
+    } catch (error) {
+        console.error("Sitemap DB Fetch Error, using fallback:", error);
+    }
 
-    // Fetch all categories (name/slug) -- assumes category routing uses Name or specialized slug
-    // Based on previous code, category routing seemed to use Name? Or a slug field?
-    // Let's check models/categories.js or assume 'name' is used as slug.
-    // Actually, checking standard practice, likely slugified name.
-    const allCategories = await categories.find({}, 'name').lean();
+    // Use fallback if DB is empty or failed
+    if (allTools.length === 0) {
+        allTools = fallbackData.tools;
+    }
+    if (allCategories.length === 0) {
+        allCategories = fallbackData.categories;
+    }
 
     // 2. Generate URLs for Tools
     const toolUrls = allTools.map((tool) => ({
@@ -26,23 +35,18 @@ export default async function sitemap() {
     }));
 
     // 3. Generate URLs for Categories
-    // Logic: likely /category/Category%20Name or slugified. 
-    // I need to be sure about the category route pattern. 
-    // app/(pages)/category/[slug]/page.js uses params.slug.
-    // Usually slug is URL encoded name or a slug field.
-    // I will assume simple slugification: lowercase, dash separated.
-    const categoryUrls = allCategories.map((cat) => ({
-        url: `${baseUrl}/category/${cat.name.toLowerCase().replace(/ /g, '-')}`,
-        lastModified: new Date(),
-        changeFrequency: 'daily',
-        priority: 0.9,
-    }));
+    const categoryUrls = allCategories.map((cat) => {
+        // Use cat.slug if available, otherwise slugify name
+        const slug = cat.slug || cat.name.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+        return {
+            url: `${baseUrl}/category/${slug}`,
+            lastModified: new Date(),
+            changeFrequency: 'daily',
+            priority: 0.9,
+        };
+    });
 
-    // 4. Correct Category Slugification (Critical)
-    // If the category pages expect ID or specific slug, I might be wrong.
-    // Let's assume standard slug format from the seeder: name.toLowerCase().replace(/[^a-z0-9]+/g, '-')
-
-    // 5. Static Routes
+    // 4. Static Routes
     const staticRoutes = [
         {
             url: baseUrl,
@@ -74,9 +78,6 @@ export default async function sitemap() {
             changeFrequency: 'monthly',
             priority: 0.6,
         },
-
-
-        // Add other static pages like /about if they exist
     ];
 
     return [...staticRoutes, ...categoryUrls, ...toolUrls];

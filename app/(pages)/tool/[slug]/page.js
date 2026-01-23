@@ -2,6 +2,8 @@ import React from 'react'
 import ToolDetails from '@/app/components/ToolDetails';
 import dbConnect from '@/app/api/server';
 import aitools from '@/models/aitool';
+import categories from '@/models/categories';
+import fallbackData from '@/app/lib/fallbackData.json';
 
 export async function generateMetadata({ params }) {
     try {
@@ -12,6 +14,18 @@ export async function generateMetadata({ params }) {
         let tool = await aitools.findOne({ slug }).populate('category').exec();
         if (!tool && slug.match(/^[0-9a-fA-F]{24}$/)) {
             tool = await aitools.findById(slug).populate('category').exec();
+        }
+
+        // --- FALLBACK LOGIC ---
+        if (!tool) {
+            tool = fallbackData.tools.find(t => t.slug === slug || t._id === slug);
+            if (tool) {
+                // Attach category name for metadata if it's just an ID in fallback
+                if (typeof tool.category === 'string') {
+                    const cat = fallbackData.categories.find(c => c._id === tool.category);
+                    tool.category = cat || { name: 'AI Tool' };
+                }
+            }
         }
 
         if (!tool) {

@@ -41,6 +41,7 @@ export default function HomePage() {
     const [SearchText, setSearchText] = useState('')
     const [filtredTools, setfilteredTools] = useState([]);
     const [loading, setLoading] = useState(true);
+    const [isFallback, setIsFallback] = useState(false);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -56,7 +57,8 @@ export default function HomePage() {
                 }
 
                 if (toolsRes.status === 'fulfilled' && toolsRes.value.data) {
-                    setfilteredTools(toolsRes.value.data.tools);
+                    setfilteredTools(toolsRes.value.data.tools || []);
+                    setIsFallback(toolsRes.value.data.pagination?.isFallback || false);
                 }
             } catch (error) {
                 console.error("Error fetching data", error);
@@ -108,9 +110,15 @@ export default function HomePage() {
                 {/* Hero Section */}
                 <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-40 bg-blue-600/5 blur-[100px] -z-10 rounded-full"></div>
                 <div className="flex flex-col items-center text-center space-y-6 md:space-y-8 mb-12 lg:mb-24 relative z-40">
-                    <div className="inline-flex items-center gap-2 px-3 py-1 bg-white/5 border border-white/10 rounded-full backdrop-blur-md mb-4">
-                        <div className="w-1.5 h-1.5 rounded-full bg-blue-500 shadow-[0_0_8px_rgba(59,130,246,0.8)]"></div>
-                        <span className="text-[10px] text-slate-400 font-black uppercase tracking-[0.3em] py-0.5 px-1">Curated Intelligence</span>
+                    <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-white/5 border border-white/10 rounded-full backdrop-blur-md mb-4 group/badge transition-all hover:border-white/20">
+                        <div className={`w-1.5 h-1.5 rounded-full shadow-[0_0_8px] transition-colors duration-500 ${isFallback ? 'bg-amber-500 shadow-amber-500/80 animate-pulse' : 'bg-emerald-500 shadow-emerald-500/80'}`}></div>
+                        <span className="text-[10px] text-slate-400 font-extrabold uppercase tracking-[0.3em] py-0.5 px-1 flex items-center gap-2">
+                            Curated Intelligence
+                            <span className="text-slate-600 font-medium">|</span>
+                            <span className={`tracking-widest ${isFallback ? 'text-amber-500/80' : 'text-emerald-500/80'}`}>
+                                {isFallback ? 'Updated' : 'Live'}
+                            </span>
+                        </span>
                     </div>
 
                     <div className="relative">

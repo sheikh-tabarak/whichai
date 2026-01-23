@@ -2,6 +2,11 @@
 
 All notable changes to the "Which AI" project will be documented in this file.
 
+## [2.0.1] - 2026-01-23
+
+### 🛠 Fixes
+- **Mongoose Schema Registration:** Fixed a `MissingSchemaError` where the `categories` model was not registered before being used in `populate()` calls. This was causing 500 errors on the Tools API and Tool Detail pages.
+
 ## [2.0.0] - 2026-01-04
 
 ### 🚀 Major Features & Enhancements
