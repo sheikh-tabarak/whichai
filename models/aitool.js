@@ -35,8 +35,8 @@ const ToolSchema = Schema({
     },
 
     status: {
-        type:Boolean,
-        default: false,
+        type: Schema.Types.Mixed,
+        default: "pending",
     },
     category: {
         type: Schema.Types.ObjectId,

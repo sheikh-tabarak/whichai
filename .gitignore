@@ -35,3 +35,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# admin docs
+ADMIN_API_DOCS.md
+ADMIN_APP_IMPLEMENTATION_PROMPT.md
+
+
