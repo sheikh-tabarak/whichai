@@ -59,7 +59,7 @@ const Search = () => {
               Search Results
             </h1>
             <p className="text-slate-500">
-              Showing results for "{initialSearch}"
+              Showing results for &quot;{initialSearch}&quot;
             </p>
           </div>
 
@@ -108,7 +108,7 @@ const Search = () => {
                   </div>
                   <div className="space-y-1">
                     <h3 className="text-3xl font-bold text-white">No tools found</h3>
-                    <p className="text-slate-500 text-lg">We couldn't find any tools matching your query. Try different keywords.</p>
+                    <p className="text-slate-500 text-lg">We couldn&apos;t find any tools matching your query. Try different keywords.</p>
                     <div className="pt-8">
                       <h4 className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-4">Try these instead:</h4>
                       <div className="flex flex-wrap justify-center gap-2">

@@ -3,6 +3,8 @@ import dbConnect from "../server";
 import aitools from "@/models/aitool";
 import categories from "@/models/categories";
 
+export const dynamic = 'force-dynamic';
+
 export async function GET(request) {
     await dbConnect();
 

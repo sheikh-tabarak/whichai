@@ -77,7 +77,7 @@ const AddNewTool = () => {
                         <div className="space-y-4 lg:space-y-6 border-b border-white/5 pb-6 lg:pb-10">
                             <h1 className="text-3xl lg:text-7xl font-black text-white tracking-tighter">Submit Your AI Tool</h1>
                             <p className="text-slate-400 text-base lg:text-xl leading-relaxed max-w-2xl font-medium">
-                                Join the world's most comprehensive AI directory. <span className="text-blue-400">Provide detailed information</span> to help users understand the value of your tool.
+                                Join the world&apos;s most comprehensive AI directory. <span className="text-blue-400">Provide detailed information</span> to help users understand the value of your tool.
                             </p>
                         </div>
 

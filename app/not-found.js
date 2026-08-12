@@ -32,7 +32,7 @@ export default function NotFound() {
   ];
 
   return (
-    <div className="relative min-h-[85vh] flex items-center justify-center px-4 py-16 overflow-hidden">
+    <div className="relative min-h-screen flex items-center justify-center px-4 pt-40 lg:pt-48 pb-20 overflow-hidden">
       {/* Dynamic Background Glow Effects */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-purple-600/15 rounded-full blur-[120px] pointer-events-none" />
       <div className="absolute bottom-10 left-1/3 w-[350px] h-[350px] bg-pink-600/10 rounded-full blur-[100px] pointer-events-none" />
@@ -55,7 +55,7 @@ export default function NotFound() {
             Lost in the AI Multiverse?
           </h1>
           <p className="text-sm sm:text-base text-slate-400 max-w-lg mx-auto leading-relaxed">
-            The tool or page you are looking for has been moved, renamed, or deleted into hyperspace. Let's get you back on track!
+            The tool or page you are looking for has been moved, renamed, or deleted into hyperspace. Let&apos;s get you back on track!
           </p>
         </div>
 

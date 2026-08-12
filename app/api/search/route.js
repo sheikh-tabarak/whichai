@@ -2,6 +2,8 @@ import aitools from "@/models/aitool"
 import dbConnect from "../server"
 import { NextResponse } from "next/server"
 
+export const dynamic = 'force-dynamic';
+
 export async function GET(request) {
 
     const query = request.nextUrl.searchParams.get('query') || ""

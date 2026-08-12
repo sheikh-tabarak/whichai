@@ -114,7 +114,7 @@ const ToolsDirectory = () => {
                             Explore the <br className="md:hidden" /><span className="animate-shine-gradient">AI Empire</span>
                         </h1>
                         <p className="text-slate-400 text-base lg:text-lg max-w-2xl mx-auto leading-relaxed px-4 text-center">
-                            Discover the world's most comprehensive directory of artificial intelligence tools, curated for the next generation of creators.
+                            Discover the world&apos;s most comprehensive directory of artificial intelligence tools, curated for the next generation of creators.
                         </p>
                     </div>
 
@@ -226,7 +226,7 @@ const ToolsDirectory = () => {
                         <div className="space-y-2">
                             <h2 className="text-3xl font-bold text-white">No tools found</h2>
                             <p className="text-slate-500 text-lg max-w-md mx-auto">
-                                We couldn't find any tools matching your current selection. Try adjusting your filters or search query.
+                                We couldn&apos;t find any tools matching your current selection. Try adjusting your filters or search query.
                             </p>
                             <button
                                 onClick={() => { setSearchText(''); setSelectedCategory('All'); setSelectedPricing('All'); }}

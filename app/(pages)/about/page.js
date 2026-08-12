@@ -51,10 +51,10 @@ const AboutPage = () => {
                             <h2 className="text-2xl lg:text-3xl font-bold text-white">Why Which AI?</h2>
                             <div className="space-y-4 lg:space-y-6 text-base lg:text-lg text-slate-400 leading-relaxed">
                                 <p>
-                                    In the modern era, "AI" has become a buzzword. But beneath the hype lie genuine tools that can save you hours of work, solve complex problems, and unlock new creative dimensions.
+                                    In the modern era, &quot;AI&quot; has become a buzzword. But beneath the hype lie genuine tools that can save you hours of work, solve complex problems, and unlock new creative dimensions.
                                 </p>
                                 <p>
-                                    Our mission is to simplify this discovery process. We don't just list tools; we categorize them, verify their utility, and provide a platform for the community to contribute to the ever-evolving AI ecosystem.
+                                    Our mission is to simplify this discovery process. We don&apos;t just list tools; we categorize them, verify their utility, and provide a platform for the community to contribute to the ever-evolving AI ecosystem.
                                 </p>
                             </div>
                         </div>
@@ -62,7 +62,7 @@ const AboutPage = () => {
                         <div className="text-center space-y-6 lg:space-y-8">
                             <h2 className="text-2xl lg:text-3xl font-bold text-white">Ready to contribute?</h2>
                             <p className="text-slate-400 text-base lg:text-lg px-4">
-                                If you've built something amazing or found a tool we missed, we want to hear from you.
+                                If you&apos;ve built something amazing or found a tool we missed, we want to hear from you.
                             </p>
                             <Link
                                 href="/newtool"

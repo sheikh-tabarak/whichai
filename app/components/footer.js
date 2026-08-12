@@ -43,7 +43,7 @@ const Footer = () => {
                             />
                         </Link>
                         <p className="text-slate-400 text-base md:text-lg leading-relaxed max-w-sm mx-auto md:mx-0">
-                            Curating the world's most innovative AI tools to amplify your productivity and creative intelligence.
+                            Curating the world&apos;s most innovative AI tools to amplify your productivity and creative intelligence.
                         </p>
                         <div className='flex gap-4 md:gap-5 justify-center md:justify-start'>
                             {[

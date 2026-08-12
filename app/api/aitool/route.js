@@ -2,6 +2,8 @@ import { NextResponse } from "next/server";
 import dbConnect from "../server";
 import aitools from "../../../models/aitool";
 import categories from "../../../models/categories";
+
+export const dynamic = 'force-dynamic';
 import axios from "axios";
 import fs from 'fs';
 import path from 'path';

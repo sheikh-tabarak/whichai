@@ -192,7 +192,7 @@ const ToolDetails = ({ slug }) => {
                                         tool.longDescription.split('\n').map((para, i) => para && <p key={i} className="mb-6">{para}</p>)
                                     ) : (
                                         <p className="italic text-slate-500">
-                                            System diagnostic: "{tool.description}" <br /><br />
+                                            System diagnostic: &quot;{tool.description}&quot; <br /><br />
                                             Deep-dive analysis is currently pending verification. This tool continues to power thousands of creative workflows globally. Stay tuned for further intelligence updates.
                                         </p>
                                     )}

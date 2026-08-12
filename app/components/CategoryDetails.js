@@ -111,7 +111,7 @@ const CategoryDetails = ({ slug }) => {
                                 <div className="py-40 text-center space-y-4">
                                     <div className="text-slate-600 text-6xl">∅</div>
                                     <h3 className="text-2xl font-bold text-white">No tools in this category yet</h3>
-                                    <p className="text-slate-500">We're constantly updating our directory. Check back soon!</p>
+                                    <p className="text-slate-500">We&apos;re constantly updating our directory. Check back soon!</p>
                                 </div>
                             )}
                         </div>
