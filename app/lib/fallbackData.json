@@ -1,0 +1,4227 @@
+{
+  "tools": [
+    {
+      "_id": "695971375b9608b1eb8fc47f",
+      "name": "Claude 3",
+      "slug": "claude-3",
+      "description": "Anthropic's advanced AI model emphasizing safety and large context windows. Excellent for writing, analysis, and coding tasks.",
+      "longDescription": "Anthropic's advanced AI model emphasizing safety and large context windows. Excellent for writing, analysis, and coding tasks. This tool effectively streamlines workflows in its domain, leveraging advanced machine learning algorithms to assist users. Ideal for professionals seeking to enhance productivity.",
+      "link": "https://claude.ai",
+      "image": "",
+      "tags": [
+        "Chatbot",
+        "Writing",
+        "Analysis"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "200K Context Window",
+        "Opus, Sonnet, Haiku Models",
+        "Document Analysis"
+      ],
+      "pros": [
+        "Easy to use",
+        "High efficiency",
+        "Great support"
+      ],
+      "cons": [
+        "Requires internet",
+        "Learning curve"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720e63a74edf6ee62f6030",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 0,
+      "dataCreated": "2026-01-03T19:42:47.183Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971375b9608b1eb8fc482",
+      "name": "Google Gemini",
+      "slug": "google-gemini",
+      "description": "Google's most capable AI model, integrated deeply with the Workspace ecosystem.",
+      "longDescription": "Google's most capable AI model, integrated deeply with the Workspace ecosystem. This tool effectively streamlines workflows in its domain, leveraging advanced machine learning algorithms to assist users. Ideal for professionals seeking to enhance productivity.",
+      "link": "https://gemini.google.com",
+      "image": "",
+      "tags": [
+        "Google",
+        "DeepMind",
+        "Multimodal"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Waitlist Access",
+        "Multimodal reasoning",
+        "Code generation"
+      ],
+      "pros": [
+        "Easy to use",
+        "High efficiency",
+        "Great support"
+      ],
+      "cons": [
+        "Requires internet",
+        "Learning curve"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720e63a74edf6ee62f6030",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 0,
+      "dataCreated": "2026-01-03T19:42:47.478Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971375b9608b1eb8fc485",
+      "name": "Jasper",
+      "slug": "jasper",
+      "description": "AI copywriter and content generator built for marketing teams.",
+      "longDescription": "AI copywriter and content generator built for marketing teams. This tool effectively streamlines workflows in its domain, leveraging advanced machine learning algorithms to assist users. Ideal for professionals seeking to enhance productivity.",
+      "link": "https://www.jasper.ai",
+      "image": "",
+      "tags": [
+        "Copywriting",
+        "Marketing",
+        "SEO"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Brand Voice",
+        "SEO Mode",
+        "50+ Templates"
+      ],
+      "pros": [
+        "Easy to use",
+        "High efficiency",
+        "Great support"
+      ],
+      "cons": [
+        "Requires internet",
+        "Learning curve"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720ec3a74edf6ee62f6037",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 0,
+      "dataCreated": "2026-01-03T19:42:47.765Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971385b9608b1eb8fc488",
+      "name": "Copy.ai",
+      "slug": "copy-ai",
+      "description": "AI-powered content generation tool to speed up writing workflows.",
+      "longDescription": "AI-powered content generation tool to speed up writing workflows. This tool effectively streamlines workflows in its domain, leveraging advanced machine learning algorithms to assist users. Ideal for professionals seeking to enhance productivity.",
+      "link": "https://www.copy.ai",
+      "image": "",
+      "tags": [
+        "Copywriting",
+        "Blog",
+        "Social Media"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Workflow automation",
+        "Chat",
+        "Unlimited brand voices"
+      ],
+      "pros": [
+        "Easy to use",
+        "High efficiency",
+        "Great support"
+      ],
+      "cons": [
+        "Requires internet",
+        "Learning curve"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720ec3a74edf6ee62f6037",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 0,
+      "dataCreated": "2026-01-03T19:42:48.019Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971385b9608b1eb8fc48c",
+      "name": "Midjourney",
+      "slug": "midjourney",
+      "description": "A generative artificial intelligence program that generates images from natural language descriptions.",
+      "longDescription": "A generative artificial intelligence program that generates images from natural language descriptions. This tool effectively streamlines workflows in its domain, leveraging advanced machine learning algorithms to assist users. Ideal for professionals seeking to enhance productivity.",
+      "link": "https://www.midjourney.com",
+      "image": "",
+      "tags": [
+        "Art",
+        "Generator",
+        "Creative"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Hyper-realistic generation",
+        "V6 Model",
+        "Discord & Web Interface"
+      ],
+      "pros": [
+        "Easy to use",
+        "High efficiency",
+        "Great support"
+      ],
+      "cons": [
+        "Requires internet",
+        "Learning curve"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720df1a74edf6ee62f602a",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 0,
+      "dataCreated": "2026-01-03T19:42:48.442Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971385b9608b1eb8fc48f",
+      "name": "Stable Diffusion",
+      "slug": "stable-diffusion",
+      "description": "A latent text-to-image diffusion model capable of generating photo-realistic images given any text input.",
+      "longDescription": "A latent text-to-image diffusion model capable of generating photo-realistic images given any text input. This tool effectively streamlines workflows in its domain, leveraging advanced machine learning algorithms to assist users. Ideal for professionals seeking to enhance productivity.",
+      "link": "https://stability.ai",
+      "image": "",
+      "tags": [
+        "Open Source",
+        "Image Generation",
+        "Local"
+      ],
+      "pricing": "Free",
+      "features": [
+        "Local installation",
+        "ControlNet",
+        "In-painting"
+      ],
+      "pros": [
+        "Easy to use",
+        "High efficiency",
+        "Great support"
+      ],
+      "cons": [
+        "Requires internet",
+        "Learning curve"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720df1a74edf6ee62f602a",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 0,
+      "dataCreated": "2026-01-03T19:42:48.696Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971385b9608b1eb8fc492",
+      "name": "Leonardo.ai",
+      "slug": "leonardo-ai",
+      "description": "Create production-quality visual assets for your projects with unprecedented quality, speed, and style-consistency.",
+      "longDescription": "Create production-quality visual assets for your projects with unprecedented quality, speed, and style-consistency. This tool effectively streamlines workflows in its domain, leveraging advanced machine learning algorithms to assist users. Ideal for professionals seeking to enhance productivity.",
+      "link": "https://leonardo.ai",
+      "image": "",
+      "tags": [
+        "Game Assets",
+        "Design",
+        "Art"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Canvas Editor",
+        "Training custom models",
+        "Daily free tokens"
+      ],
+      "pros": [
+        "Easy to use",
+        "High efficiency",
+        "Great support"
+      ],
+      "cons": [
+        "Requires internet",
+        "Learning curve"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720df1a74edf6ee62f602a",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 0,
+      "dataCreated": "2026-01-03T19:42:48.970Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971395b9608b1eb8fc495",
+      "name": "Adobe Firefly",
+      "slug": "adobe-firefly",
+      "description": "Generative AI made for creators, integrated directly into Photoshop and Illustrator.",
+      "longDescription": "Generative AI made for creators, integrated directly into Photoshop and Illustrator. This tool effectively streamlines workflows in its domain, leveraging advanced machine learning algorithms to assist users. Ideal for professionals seeking to enhance productivity.",
+      "link": "https://firefly.adobe.com",
+      "image": "",
+      "tags": [
+        "Design",
+        "Adobe",
+        "Commercial Safe"
+      ],
+      "pricing": "Introduction",
+      "features": [
+        "Generative Fill",
+        "Text Effects",
+        "Commercial safety"
+      ],
+      "pros": [
+        "Easy to use",
+        "High efficiency",
+        "Great support"
+      ],
+      "cons": [
+        "Requires internet",
+        "Learning curve"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720df1a74edf6ee62f602a",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 0,
+      "dataCreated": "2026-01-03T19:42:49.233Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971395b9608b1eb8fc498",
+      "name": "Runway Gen-2",
+      "slug": "runway-gen-2",
+      "description": "A multi-modal AI system that can generate novel videos with text, images, or video clips.",
+      "longDescription": "A multi-modal AI system that can generate novel videos with text, images, or video clips. This tool effectively streamlines workflows in its domain, leveraging advanced machine learning algorithms to assist users. Ideal for professionals seeking to enhance productivity.",
+      "link": "https://runwayml.com",
+      "image": "",
+      "tags": [
+        "Video Generation",
+        "Motion Brush",
+        "Editing"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Text to Video",
+        "Image to Video",
+        "Motion Brush"
+      ],
+      "pros": [
+        "Easy to use",
+        "High efficiency",
+        "Great support"
+      ],
+      "cons": [
+        "Requires internet",
+        "Learning curve"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720df1a74edf6ee62f602a",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 0,
+      "dataCreated": "2026-01-03T19:42:49.489Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971395b9608b1eb8fc49b",
+      "name": "Pika Labs",
+      "slug": "pika-labs",
+      "description": "An idea-to-video platform that brings your creativity to motion.",
+      "longDescription": "An idea-to-video platform that brings your creativity to motion. This tool effectively streamlines workflows in its domain, leveraging advanced machine learning algorithms to assist users. Ideal for professionals seeking to enhance productivity.",
+      "link": "https://pika.art",
+      "image": "",
+      "tags": [
+        "Animation",
+        "Lip Sync",
+        "Video"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Lip Sync",
+        "Sound Effects",
+        "Modify Region"
+      ],
+      "pros": [
+        "Easy to use",
+        "High efficiency",
+        "Great support"
+      ],
+      "cons": [
+        "Requires internet",
+        "Learning curve"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720df1a74edf6ee62f602a",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 0,
+      "dataCreated": "2026-01-03T19:42:49.736Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959713a5b9608b1eb8fc49e",
+      "name": "HeyGen",
+      "slug": "heygen",
+      "description": "AI video generator that lets you create engaging business videos with generative AI avatars.",
+      "longDescription": "AI video generator that lets you create engaging business videos with generative AI avatars. This tool effectively streamlines workflows in its domain, leveraging advanced machine learning algorithms to assist users. Ideal for professionals seeking to enhance productivity.",
+      "link": "https://www.heygen.com",
+      "image": "",
+      "tags": [
+        "Avatars",
+        "Business",
+        "Presentation"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Instant Avatar",
+        "Video Translation",
+        "API Access"
+      ],
+      "pros": [
+        "Easy to use",
+        "High efficiency",
+        "Great support"
+      ],
+      "cons": [
+        "Requires internet",
+        "Learning curve"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720df1a74edf6ee62f602a",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 0,
+      "dataCreated": "2026-01-03T19:42:50.101Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959713a5b9608b1eb8fc4a2",
+      "name": "GitHub Copilot",
+      "slug": "github-copilot",
+      "description": "Your AI pair programmer. Get suggestions for whole lines or entire functions right inside your editor.",
+      "longDescription": "Your AI pair programmer. Get suggestions for whole lines or entire functions right inside your editor. This tool effectively streamlines workflows in its domain, leveraging advanced machine learning algorithms to assist users. Ideal for professionals seeking to enhance productivity.",
+      "link": "https://github.com/features/copilot",
+      "image": "",
+      "tags": [
+        "Coding",
+        "Developer",
+        "Productivity"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "IDE Integration",
+        "Chat",
+        "CLI support"
+      ],
+      "pros": [
+        "Easy to use",
+        "High efficiency",
+        "Great support"
+      ],
+      "cons": [
+        "Requires internet",
+        "Learning curve"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "666f21e53e4d3207fbeb3f02",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 0,
+      "dataCreated": "2026-01-03T19:42:50.500Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959713a5b9608b1eb8fc4a5",
+      "name": "Cursor",
+      "slug": "cursor",
+      "description": "The AI-first code editor. Built to make you extraordinarily productive.",
+      "longDescription": "The AI-first code editor. Built to make you extraordinarily productive. This tool effectively streamlines workflows in its domain, leveraging advanced machine learning algorithms to assist users. Ideal for professionals seeking to enhance productivity.",
+      "link": "https://cursor.sh",
+      "image": "",
+      "tags": [
+        "Editor",
+        "IDE",
+        "Coding"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Built-in AI",
+        "Codebase Chat",
+        "Docs Integration"
+      ],
+      "pros": [
+        "Easy to use",
+        "High efficiency",
+        "Great support"
+      ],
+      "cons": [
+        "Requires internet",
+        "Learning curve"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "666f21e53e4d3207fbeb3f02",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 0,
+      "dataCreated": "2026-01-03T19:42:50.756Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959713b5b9608b1eb8fc4a8",
+      "name": "Replit AI",
+      "slug": "replit-ai",
+      "description": "Powering the next generation of software creators with AI integrated into the IDE.",
+      "longDescription": "Powering the next generation of software creators with AI integrated into the IDE. This tool effectively streamlines workflows in its domain, leveraging advanced machine learning algorithms to assist users. Ideal for professionals seeking to enhance productivity.",
+      "link": "https://replit.com/ai",
+      "image": "",
+      "tags": [
+        "Cloud IDE",
+        "Collaboration",
+        "Coding"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Ghostwriter",
+        "Deployment",
+        "Teams"
+      ],
+      "pros": [
+        "Easy to use",
+        "High efficiency",
+        "Great support"
+      ],
+      "cons": [
+        "Requires internet",
+        "Learning curve"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "666f21e53e4d3207fbeb3f02",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 0,
+      "dataCreated": "2026-01-03T19:42:51.033Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959713b5b9608b1eb8fc4ab",
+      "name": "ElevenLabs",
+      "slug": "elevenlabs",
+      "description": "The most realistic and versatile AI speech software. Premier text-to-speech and voice cloning.",
+      "longDescription": "The most realistic and versatile AI speech software. Premier text-to-speech and voice cloning. This tool effectively streamlines workflows in its domain, leveraging advanced machine learning algorithms to assist users. Ideal for professionals seeking to enhance productivity.",
+      "link": "https://elevenlabs.io",
+      "image": "",
+      "tags": [
+        "TTS",
+        "Voice Cloning",
+        "Dubbing"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Voice Cloning",
+        "Dubbing Studio",
+        "Speech to Speech"
+      ],
+      "pros": [
+        "Easy to use",
+        "High efficiency",
+        "Great support"
+      ],
+      "cons": [
+        "Requires internet",
+        "Learning curve"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "666f21e53e4d3207fbeb3f02",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 0,
+      "dataCreated": "2026-01-03T19:42:51.292Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959713b5b9608b1eb8fc4ae",
+      "name": "Suno AI",
+      "slug": "suno-ai",
+      "description": "Make a song about anything. Suno is building a future where anyone can make great music.",
+      "longDescription": "Make a song about anything. Suno is building a future where anyone can make great music. This tool effectively streamlines workflows in its domain, leveraging advanced machine learning algorithms to assist users. Ideal for professionals seeking to enhance productivity.",
+      "link": "https://suno.com",
+      "image": "",
+      "tags": [
+        "Music",
+        "Composition",
+        "Fun"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Full song generation",
+        "Lyrics",
+        "V3 Model"
+      ],
+      "pros": [
+        "Easy to use",
+        "High efficiency",
+        "Great support"
+      ],
+      "cons": [
+        "Requires internet",
+        "Learning curve"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "666f21e53e4d3207fbeb3f02",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 0,
+      "dataCreated": "2026-01-03T19:42:51.542Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959713b5b9608b1eb8fc4b1",
+      "name": "Talpa",
+      "slug": "talpa",
+      "description": "An AI-powered library search tool designed to help you find books, articles, and media faster.",
+      "longDescription": "An AI-powered library search tool designed to help you find books, articles, and media faster. This tool effectively streamlines workflows in its domain, leveraging advanced machine learning algorithms to assist users. Ideal for professionals seeking to enhance productivity.",
+      "link": "https://talpa.ai",
+      "image": "",
+      "tags": [
+        "Search",
+        "Library",
+        "Research"
+      ],
+      "pricing": "Free",
+      "features": [
+        "Natural language search",
+        "Curated results"
+      ],
+      "pros": [
+        "Easy to use",
+        "High efficiency",
+        "Great support"
+      ],
+      "cons": [
+        "Requires internet",
+        "Learning curve"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720e63a74edf6ee62f6030",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 0,
+      "dataCreated": "2026-01-03T19:42:51.818Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959713c5b9608b1eb8fc4b4",
+      "name": "CommuniqAI",
+      "slug": "communiqai",
+      "description": "Automate your SMS, calls, and emails smartly. Keep in touch without the manual effort.",
+      "longDescription": "Automate your SMS, calls, and emails smartly. Keep in touch without the manual effort. This tool effectively streamlines workflows in its domain, leveraging advanced machine learning algorithms to assist users. Ideal for professionals seeking to enhance productivity.",
+      "link": "https://communiqai.com",
+      "image": "",
+      "tags": [
+        "Automation",
+        "Messaging",
+        "Personal"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Smart scheduling",
+        "Contact management"
+      ],
+      "pros": [
+        "Easy to use",
+        "High efficiency",
+        "Great support"
+      ],
+      "cons": [
+        "Requires internet",
+        "Learning curve"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "666f21e53e4d3207fbeb3f02",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 0,
+      "dataCreated": "2026-01-03T19:42:52.072Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959713c5b9608b1eb8fc4b7",
+      "name": "AskYoutube",
+      "slug": "askyoutube",
+      "description": "Extract knowledge from YouTube videos instantly. Search content inside videos.",
+      "longDescription": "Extract knowledge from YouTube videos instantly. Search content inside videos. This tool effectively streamlines workflows in its domain, leveraging advanced machine learning algorithms to assist users. Ideal for professionals seeking to enhance productivity.",
+      "link": "https://askyoutube.com",
+      "image": "",
+      "tags": [
+        "Search",
+        "YouTube",
+        "Summary"
+      ],
+      "pricing": "Free",
+      "features": [
+        "Video transcription",
+        "Q&A"
+      ],
+      "pros": [
+        "Easy to use",
+        "High efficiency",
+        "Great support"
+      ],
+      "cons": [
+        "Requires internet",
+        "Learning curve"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720df1a74edf6ee62f602a",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 0,
+      "dataCreated": "2026-01-03T19:42:52.348Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959713c5b9608b1eb8fc4ba",
+      "name": "Mutiny",
+      "slug": "mutiny",
+      "description": "No-code AI platform for marketers to turn data into revenue.",
+      "longDescription": "No-code AI platform for marketers to turn data into revenue. This tool effectively streamlines workflows in its domain, leveraging advanced machine learning algorithms to assist users. Ideal for professionals seeking to enhance productivity.",
+      "link": "https://www.mutinyhq.com",
+      "image": "",
+      "tags": [
+        "Conversion",
+        "B2B",
+        "Web Personalization"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Audience segmentation",
+        "AI copywriting"
+      ],
+      "pros": [
+        "Easy to use",
+        "High efficiency",
+        "Great support"
+      ],
+      "cons": [
+        "Requires internet",
+        "Learning curve"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720ec3a74edf6ee62f6037",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 0,
+      "dataCreated": "2026-01-03T19:42:52.602Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959713c5b9608b1eb8fc4bd",
+      "name": "Sitekick",
+      "slug": "sitekick",
+      "description": "AI landing page builder that creates beautiful, high-converting pages in minutes.",
+      "longDescription": "AI landing page builder that creates beautiful, high-converting pages in minutes. This tool effectively streamlines workflows in its domain, leveraging advanced machine learning algorithms to assist users. Ideal for professionals seeking to enhance productivity.",
+      "link": "https://www.sitekick.ai",
+      "image": "",
+      "tags": [
+        "Web Design",
+        "Landing Page",
+        "No-code"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Copy generation",
+        "Design blocks",
+        "Unsplash integration"
+      ],
+      "pros": [
+        "Easy to use",
+        "High efficiency",
+        "Great support"
+      ],
+      "cons": [
+        "Requires internet",
+        "Learning curve"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720ec3a74edf6ee62f6037",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 0,
+      "dataCreated": "2026-01-03T19:42:52.871Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959713d5b9608b1eb8fc4c0",
+      "name": "Otter.ai",
+      "slug": "otter-ai",
+      "description": "Get an AI meeting assistant that records audio, writes notes, automatically captures slides, and generates summaries.",
+      "longDescription": "Get an AI meeting assistant that records audio, writes notes, automatically captures slides, and generates summaries. This tool effectively streamlines workflows in its domain, leveraging advanced machine learning algorithms to assist users. Ideal for professionals seeking to enhance productivity.",
+      "link": "https://otter.ai",
+      "image": "",
+      "tags": [
+        "Meeting",
+        "Transcription",
+        "Note-taking"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Real-time transcription",
+        "Zoom/Meet integration"
+      ],
+      "pros": [
+        "Easy to use",
+        "High efficiency",
+        "Great support"
+      ],
+      "cons": [
+        "Requires internet",
+        "Learning curve"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "666f21e53e4d3207fbeb3f02",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 0,
+      "dataCreated": "2026-01-03T19:42:53.116Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959713d5b9608b1eb8fc4c3",
+      "name": "Notion AI",
+      "slug": "notion-ai",
+      "description": "Access the limitless power of AI, right inside Notion. Write better, think bigger, and work faster.",
+      "longDescription": "Access the limitless power of AI, right inside Notion. Write better, think bigger, and work faster. This tool effectively streamlines workflows in its domain, leveraging advanced machine learning algorithms to assist users. Ideal for professionals seeking to enhance productivity.",
+      "link": "https://www.notion.so/product/ai",
+      "image": "",
+      "tags": [
+        "Writing",
+        "Organization",
+        "Workspace"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Summarization",
+        "Translation",
+        "Brainstorming"
+      ],
+      "pros": [
+        "Easy to use",
+        "High efficiency",
+        "Great support"
+      ],
+      "cons": [
+        "Requires internet",
+        "Learning curve"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "666f21e53e4d3207fbeb3f02",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 0,
+      "dataCreated": "2026-01-03T19:42:53.393Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959713d5b9608b1eb8fc4c6",
+      "name": "Grammarly",
+      "slug": "grammarly",
+      "description": "Compose bold, clear, mistake-free writing with OpenAI's AI writing assistant.",
+      "longDescription": "Compose bold, clear, mistake-free writing with OpenAI's AI writing assistant. This tool effectively streamlines workflows in its domain, leveraging advanced machine learning algorithms to assist users. Ideal for professionals seeking to enhance productivity.",
+      "link": "https://www.grammarly.com",
+      "image": "",
+      "tags": [
+        "Writing",
+        "Editing",
+        "Education"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Tone suggestions",
+        "Plagiarism checker",
+        "Generative AI"
+      ],
+      "pros": [
+        "Easy to use",
+        "High efficiency",
+        "Great support"
+      ],
+      "cons": [
+        "Requires internet",
+        "Learning curve"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720e63a74edf6ee62f6030",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 0,
+      "dataCreated": "2026-01-03T19:42:53.658Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959713d5b9608b1eb8fc4c9",
+      "name": "Canva Magic Studio",
+      "slug": "canva-magic-studio",
+      "description": "A suite of AI-powered tools for design, writing, and video creation integrated into Canva.",
+      "longDescription": "A suite of AI-powered tools for design, writing, and video creation integrated into Canva. This tool effectively streamlines workflows in its domain, leveraging advanced machine learning algorithms to assist users. Ideal for professionals seeking to enhance productivity.",
+      "link": "https://www.canva.com",
+      "image": "",
+      "tags": [
+        "Design",
+        "Social Media",
+        "Video"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Magic Edit",
+        "Magic Write",
+        "Text to Image"
+      ],
+      "pros": [
+        "Easy to use",
+        "High efficiency",
+        "Great support"
+      ],
+      "cons": [
+        "Requires internet",
+        "Learning curve"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720df1a74edf6ee62f602a",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 0,
+      "dataCreated": "2026-01-03T19:42:53.909Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959713e5b9608b1eb8fc4cc",
+      "name": "Beautiful.ai",
+      "slug": "beautiful-ai",
+      "description": "Generative AI presentation software for the workplace.",
+      "longDescription": "Generative AI presentation software for the workplace. This tool effectively streamlines workflows in its domain, leveraging advanced machine learning algorithms to assist users. Ideal for professionals seeking to enhance productivity.",
+      "link": "https://www.beautiful.ai",
+      "image": "",
+      "tags": [
+        "Presentation",
+        "Slides",
+        "Design"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Smart templates",
+        "Data visualization"
+      ],
+      "pros": [
+        "Easy to use",
+        "High efficiency",
+        "Great support"
+      ],
+      "cons": [
+        "Requires internet",
+        "Learning curve"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "666f21e53e4d3207fbeb3f02",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 0,
+      "dataCreated": "2026-01-03T19:42:54.175Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971f75b9608b1eb8fc4f1",
+      "name": "Descript",
+      "slug": "descript",
+      "description": "An all-in-one audio and video editor that makes editing as easy as a doc.",
+      "longDescription": "An all-in-one audio and video editor that makes editing as easy as a doc.",
+      "link": "https://www.descript.com",
+      "image": "",
+      "tags": [
+        "Editing",
+        "Transcription",
+        "Podcast"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Screen recording",
+        "Filler word removal",
+        "AI Voices"
+      ],
+      "pros": [
+        "Edit video by editing text",
+        "Overdub voice cloning",
+        "Studio sound removal"
+      ],
+      "cons": [
+        "Transcription isn't 100% perfect",
+        "Desktop app can be resource heavy"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720df1a74edf6ee62f602a",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.5,
+      "dataCreated": "2026-01-03T19:45:59.619Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971f85b9608b1eb8fc4f5",
+      "name": "Lumen5",
+      "slug": "lumen5",
+      "description": "AI-powered video creation platform driven by your marketing content.",
+      "longDescription": "AI-powered video creation platform driven by your marketing content.",
+      "link": "https://lumen5.com",
+      "image": "",
+      "tags": [
+        "Video",
+        "Content Marketing",
+        "Blog to Video"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Blog to video",
+        "Talking Head",
+        "Auto-captions"
+      ],
+      "pros": [
+        "Great for converting blogs to video",
+        "Very intuitive UI",
+        "Brand presets"
+      ],
+      "cons": [
+        "Limited animation control",
+        "Generic stock feel sometimes"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720ec3a74edf6ee62f6037",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 5,
+      "dataCreated": "2026-01-03T19:46:00.075Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971f85b9608b1eb8fc4f8",
+      "name": "Runway Gen-1",
+      "slug": "runway-gen-1",
+      "description": "Video-to-video generative AI model that can synthesize new videos by applying the composition and style of an image.",
+      "longDescription": "Video-to-video generative AI model that can synthesize new videos by applying the composition and style of an image.",
+      "link": "https://runwayml.com",
+      "image": "",
+      "tags": [
+        "VFX",
+        "Stylization",
+        "Creative"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Video stylization",
+        "Motion tracking",
+        "Green screen"
+      ],
+      "pros": [
+        "Amazing style transfer",
+        "Professional grade tools",
+        "Innovative"
+      ],
+      "cons": [
+        "Steep learning curve",
+        "Credits can be expensive"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720df1a74edf6ee62f602a",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.8,
+      "dataCreated": "2026-01-03T19:46:00.345Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971f85b9608b1eb8fc4fb",
+      "name": "Kaiber",
+      "slug": "kaiber",
+      "description": "An AI creative lab to animate your videos and images with style.",
+      "longDescription": "An AI creative lab to animate your videos and images with style.",
+      "link": "https://kaiber.ai",
+      "image": "",
+      "tags": [
+        "Animation",
+        "Music Video",
+        "Art"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Audio reactivity",
+        "Transform video",
+        "Flipbook style"
+      ],
+      "pros": [
+        "Unique artistic styles",
+        "Great for music videos",
+        "Audio reactivity"
+      ],
+      "cons": [
+        "Rendering takes time",
+        "No free tier"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720df1a74edf6ee62f602a",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.8,
+      "dataCreated": "2026-01-03T19:46:00.696Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971f85b9608b1eb8fc4fe",
+      "name": "Tabnine",
+      "slug": "tabnine",
+      "description": "AI code completions helping developers code faster and better.",
+      "longDescription": "AI code completions helping developers code faster and better.",
+      "link": "https://www.tabnine.com",
+      "image": "",
+      "tags": [
+        "Autocomplete",
+        "Privacy",
+        "Enterprise"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Whole line completion",
+        "Private code models",
+        "Team training"
+      ],
+      "pros": [
+        "Runs locally/private",
+        "Supports many IDEs",
+        "Learns your codebase"
+      ],
+      "cons": [
+        "Less 'chatty' than Copilot",
+        "Context window limits"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "666f21e53e4d3207fbeb3f02",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.9,
+      "dataCreated": "2026-01-03T19:46:00.968Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971f95b9608b1eb8fc501",
+      "name": "Amazon CodeWhisperer",
+      "slug": "amazon-codewhisperer",
+      "description": "AI coding companion that improves developer productivity by generating code recommendations.",
+      "longDescription": "AI coding companion that improves developer productivity by generating code recommendations.",
+      "link": "https://aws.amazon.com/codewhisperer/",
+      "image": "",
+      "tags": [
+        "AWS",
+        "Cloud",
+        "Developer"
+      ],
+      "pricing": "Free",
+      "features": [
+        "Security scanning",
+        "Reference tracking",
+        "Jupyter support"
+      ],
+      "pros": [
+        "Free for individuals",
+        "Security scans built-in",
+        "Great for AWS SDKs"
+      ],
+      "cons": [
+        "Best primarily for AWS eco",
+        "IDE support limited compared to Copilot"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "666f21e53e4d3207fbeb3f02",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.7,
+      "dataCreated": "2026-01-03T19:46:01.237Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971f95b9608b1eb8fc504",
+      "name": "Codeium",
+      "slug": "codeium",
+      "description": "Free AI Code Completion & Chat. The modern coding superpower.",
+      "longDescription": "Free AI Code Completion & Chat. The modern coding superpower.",
+      "link": "https://codeium.com",
+      "image": "",
+      "tags": [
+        "Editor",
+        "Autocomplete",
+        "Fast"
+      ],
+      "pricing": "Free",
+      "features": [
+        "Chat in IDE",
+        "Repo search",
+        "Python/JS focus"
+      ],
+      "pros": [
+        "Generous free tier",
+        "Very fast",
+        "Wide IDE support (Vim, etc)"
+      ],
+      "cons": [
+        "Newer than competitors",
+        "Chat can hallucinate"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "666f21e53e4d3207fbeb3f02",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.6,
+      "dataCreated": "2026-01-03T19:46:01.485Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971f95b9608b1eb8fc507",
+      "name": "DeepCode",
+      "slug": "deepcode",
+      "description": "AI-powered static code analysis tool that learns from big code.",
+      "longDescription": "AI-powered static code analysis tool that learns from big code.",
+      "link": "https://www.deepcode.ai",
+      "image": "",
+      "tags": [
+        "Security",
+        "Review",
+        "Analysis"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Semantic analysis",
+        "Bug detection",
+        "Vulnerability fix"
+      ],
+      "pros": [
+        "Finds bugs effectively",
+        "Fast analysis",
+        "Integrates with GitHub"
+      ],
+      "cons": [
+        "False positives sometimes",
+        "Not a generator tool"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "666f21e53e4d3207fbeb3f02",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.3,
+      "dataCreated": "2026-01-03T19:46:01.748Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971f95b9608b1eb8fc50a",
+      "name": "Mubert",
+      "slug": "mubert",
+      "description": "Generative music streaming, instant licensing and royalty-free music for creators.",
+      "longDescription": "Generative music streaming, instant licensing and royalty-free music for creators.",
+      "link": "https://mubert.com",
+      "image": "",
+      "tags": [
+        "Music",
+        "Background",
+        "Streaming"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Text-to-Music",
+        "API",
+        "Royalty-free"
+      ],
+      "pros": [
+        "Royalty-free licensing",
+        "Endless streams",
+        "API available"
+      ],
+      "cons": [
+        "Not for lyrical songs",
+        "Generic electronic styles"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "666f21e53e4d3207fbeb3f02",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.2,
+      "dataCreated": "2026-01-03T19:46:01.996Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971fa5b9608b1eb8fc50d",
+      "name": "Beatoven.ai",
+      "slug": "beatoven-ai",
+      "description": "Create unique royalty-free music that elevates your story.",
+      "longDescription": "Create unique royalty-free music that elevates your story.",
+      "link": "https://www.beatoven.ai",
+      "image": "",
+      "tags": [
+        "Music",
+        "Mood",
+        "Creator"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Mood syncing",
+        "Genre selection",
+        "Track customization"
+      ],
+      "pros": [
+        "Detailed mood control",
+        "Cut/loop tools",
+        "Royalty-free"
+      ],
+      "cons": [
+        "Download limits on free",
+        "Limited genres"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "666f21e53e4d3207fbeb3f02",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.2,
+      "dataCreated": "2026-01-03T19:46:02.247Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971fa5b9608b1eb8fc510",
+      "name": "Murf.ai",
+      "slug": "murf-ai",
+      "description": "Go from text to speech with a versatile AI voice generator.",
+      "longDescription": "Go from text to speech with a versatile AI voice generator.",
+      "link": "https://murf.ai",
+      "image": "",
+      "tags": [
+        "TTS",
+        "Voiceover",
+        "Presentation"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Voice cloning",
+        "Video editor",
+        "120+ voices"
+      ],
+      "pros": [
+        "High quality voices",
+        "Google Slides add-on",
+        "Video sync"
+      ],
+      "cons": [
+        "Downloads behind paywall",
+        "Character limits"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "666f21e53e4d3207fbeb3f02",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.9,
+      "dataCreated": "2026-01-03T19:46:02.504Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971fa5b9608b1eb8fc513",
+      "name": "Lovo.ai",
+      "slug": "lovo-ai",
+      "description": "Award-winning AI Voice Generator and Text to Speech software.",
+      "longDescription": "Award-winning AI Voice Generator and Text to Speech software.",
+      "link": "https://lovo.ai",
+      "image": "",
+      "tags": [
+        "TTS",
+        "Genny",
+        "Marketing"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "500+ voices",
+        "Emphasis control",
+        "Sound effects"
+      ],
+      "pros": [
+        "Emotional range",
+        "Video editing UI",
+        "Global languages"
+      ],
+      "cons": [
+        "Expensive for high usage",
+        "UI can be complex"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "666f21e53e4d3207fbeb3f02",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.6,
+      "dataCreated": "2026-01-03T19:46:02.793Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971fb5b9608b1eb8fc516",
+      "name": "Surfer SEO",
+      "slug": "surfer-seo",
+      "description": "A content intelligence tool that helps you create content that ranks.",
+      "longDescription": "A content intelligence tool that helps you create content that ranks.",
+      "link": "https://surferseo.com",
+      "image": "",
+      "tags": [
+        "SEO",
+        "Writing",
+        "Ranking"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Content Editor",
+        "Keyword Research",
+        "SERP Analysis"
+      ],
+      "pros": [
+        "Data-driven guidlines",
+        "Integrates with Jasper",
+        "Audit existing pages"
+      ],
+      "cons": [
+        "Expensive",
+        "Can be prescriptive"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720ec3a74edf6ee62f6037",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.4,
+      "dataCreated": "2026-01-03T19:46:03.038Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971fb5b9608b1eb8fc519",
+      "name": "Writesonic",
+      "slug": "writesonic",
+      "description": "Best AI Writer for creating SEO-optimized content for blogs, Facebook ads, Google ads, and Shopify.",
+      "longDescription": "Best AI Writer for creating SEO-optimized content for blogs, Facebook ads, Google ads, and Shopify.",
+      "link": "https://writesonic.com",
+      "image": "",
+      "tags": [
+        "Writing",
+        "Blog",
+        "Ads"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Sonic Editor",
+        "Photosonic images",
+        "Chatsonic"
+      ],
+      "pros": [
+        "GPT-4 integration",
+        "Files chat",
+        "Landing page generator"
+      ],
+      "cons": [
+        "Credit system",
+        "Quality varies by template"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720ec3a74edf6ee62f6037",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 5,
+      "dataCreated": "2026-01-03T19:46:03.324Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971fb5b9608b1eb8fc51c",
+      "name": "AdCreative.ai",
+      "slug": "adcreative-ai",
+      "description": "Generate conversion-focused ad creatives and social media post creatives in a matter of seconds.",
+      "longDescription": "Generate conversion-focused ad creatives and social media post creatives in a matter of seconds.",
+      "link": "https://www.adcreative.ai",
+      "image": "",
+      "tags": [
+        "Ads",
+        "Design",
+        "Social Media"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Ad generation",
+        "Text generator",
+        "Creative insights"
+      ],
+      "pros": [
+        "High conversion focus",
+        "Lists scoring",
+        "Brand consistency"
+      ],
+      "cons": [
+        "Design flexibility limited",
+        "Subscription only"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720ec3a74edf6ee62f6037",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.9,
+      "dataCreated": "2026-01-03T19:46:03.564Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971fb5b9608b1eb8fc51f",
+      "name": "Albert.ai",
+      "slug": "albert-ai",
+      "description": "Your self-driving digital marketer. Fully autonomous cross-channel advertising.",
+      "longDescription": "Your self-driving digital marketer. Fully autonomous cross-channel advertising.",
+      "link": "https://albert.ai",
+      "image": "",
+      "tags": [
+        "Ads",
+        "Automation",
+        "Enterprise"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Campaign management",
+        "Audience targeting",
+        "Performance analysis"
+      ],
+      "pros": [
+        "Autonomous optimization",
+        "Cross-channel",
+        "24/7 management"
+      ],
+      "cons": [
+        "Enterprise pricing",
+        "Black box logic sometimes"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720ec3a74edf6ee62f6037",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.8,
+      "dataCreated": "2026-01-03T19:46:03.851Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971fc5b9608b1eb8fc522",
+      "name": "MarketMuse",
+      "slug": "marketmuse",
+      "description": "AI content planning and optimization software.",
+      "longDescription": "AI content planning and optimization software.",
+      "link": "https://www.marketmuse.com",
+      "image": "",
+      "tags": [
+        "SEO",
+        "Content Strategy",
+        "Planning"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Content brief",
+        "Inventory",
+        "Optimize"
+      ],
+      "pros": [
+        "Deep topic analysis",
+        "Inventory audit",
+        "Competitor gaps"
+      ],
+      "cons": [
+        "Slow interface sometimes",
+        "Learning curve"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720ec3a74edf6ee62f6037",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.9,
+      "dataCreated": "2026-01-03T19:46:04.155Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971fc5b9608b1eb8fc525",
+      "name": "Spline AI",
+      "slug": "spline-ai",
+      "description": "Generate 3D objects, animations, and textures using text prompts.",
+      "longDescription": "Generate 3D objects, animations, and textures using text prompts.",
+      "link": "https://spline.design/ai",
+      "image": "",
+      "tags": [
+        "3D",
+        "Web Design",
+        "Interactive"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Text to 3D",
+        "Texture generation",
+        "Scene variations"
+      ],
+      "pros": [
+        "Web-based",
+        "Real-time collaboration",
+        "Easy text-to-3D"
+      ],
+      "cons": [
+        "Still experimental",
+        "Poly count limits"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "666f21e53e4d3207fbeb3f02",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.5,
+      "dataCreated": "2026-01-03T19:46:04.412Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971fc5b9608b1eb8fc528",
+      "name": "Luma AI",
+      "slug": "luma-ai",
+      "description": "Capture the world in lifelike 3D directly from your phone.",
+      "longDescription": "Capture the world in lifelike 3D directly from your phone.",
+      "link": "https://lumalabs.ai",
+      "image": "",
+      "tags": [
+        "NeRF",
+        "Capture",
+        "Reality"
+      ],
+      "pricing": "Free",
+      "features": [
+        "Interactive Scenes",
+        "Video to 3D",
+        "Game assets"
+      ],
+      "pros": [
+        "Amazing NeRF quality",
+        "Mobile app",
+        "API access"
+      ],
+      "cons": [
+        "Processing time",
+        "Requires good lighting"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "666f21e53e4d3207fbeb3f02",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.8,
+      "dataCreated": "2026-01-03T19:46:04.662Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971fd5b9608b1eb8fc52b",
+      "name": "Meshy",
+      "slug": "meshy",
+      "description": "Fast 3D content creation with generative AI.",
+      "longDescription": "Fast 3D content creation with generative AI.",
+      "link": "https://www.meshy.ai",
+      "image": "",
+      "tags": [
+        "Game Dev",
+        "Assets",
+        "Modeling"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "3D Texturing",
+        "3D Modeling",
+        "Sketch to 3D"
+      ],
+      "pros": [
+        "Text to Texture",
+        "Text to 3D",
+        "Fast generation"
+      ],
+      "cons": [
+        "Geometry can be messy",
+        "Beta stage"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "666f21e53e4d3207fbeb3f02",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.6,
+      "dataCreated": "2026-01-03T19:46:05.002Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971fd5b9608b1eb8fc52e",
+      "name": "Mem.ai",
+      "slug": "mem-ai",
+      "description": "The self-organizing workspace for your team's knowledge.",
+      "longDescription": "The self-organizing workspace for your team's knowledge.",
+      "link": "https://mem.ai",
+      "image": "",
+      "tags": [
+        "Notes",
+        "Knowledge Base",
+        "Personal"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Mem Chat",
+        "Similar notes",
+        "Calendar sync"
+      ],
+      "pros": [
+        "Self-organizing",
+        "Smart search",
+        "Twitter integration"
+      ],
+      "cons": [
+        "Mobile app laggy",
+        "Unique workflow to learn"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "666f21e53e4d3207fbeb3f02",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 5,
+      "dataCreated": "2026-01-03T19:46:05.276Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971fd5b9608b1eb8fc531",
+      "name": "Rewind.ai",
+      "slug": "rewind-ai",
+      "description": "Record anything you've seen, said, or heard and make it searchable.",
+      "longDescription": "Record anything you've seen, said, or heard and make it searchable.",
+      "link": "https://www.rewind.ai",
+      "image": "",
+      "tags": [
+        "Mac",
+        "Memory",
+        "Search"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Screen recording",
+        "Audio transcription",
+        "Ask Rewind"
+      ],
+      "pros": [
+        "Perfect memory",
+        "Local processing (privacy)",
+        "Transcript search"
+      ],
+      "cons": [
+        "Mac only (mostly)",
+        "Large storage usage"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "666f21e53e4d3207fbeb3f02",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.4,
+      "dataCreated": "2026-01-03T19:46:05.550Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971fd5b9608b1eb8fc534",
+      "name": "Fireflies.ai",
+      "slug": "fireflies-ai",
+      "description": "Automate your meeting notes. Record, transcribe, search, and analyze voice conversations.",
+      "longDescription": "Automate your meeting notes. Record, transcribe, search, and analyze voice conversations.",
+      "link": "https://fireflies.ai",
+      "image": "",
+      "tags": [
+        "Meeting",
+        "Transcription",
+        "Teams"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Video conferencing support",
+        "Soundbites",
+        "CRM integration"
+      ],
+      "pros": [
+        "Integrates with everything",
+        "AskFred assistant",
+        "Topic tracking"
+      ],
+      "cons": [
+        "Bot joins meetings visibly",
+        "Transcript errors"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "666f21e53e4d3207fbeb3f02",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.7,
+      "dataCreated": "2026-01-03T19:46:05.818Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971fe5b9608b1eb8fc537",
+      "name": "Tome",
+      "slug": "tome",
+      "description": " The AI-powered storytelling format. Unlock your best work with Tome.",
+      "longDescription": " The AI-powered storytelling format. Unlock your best work with Tome.",
+      "link": "https://tome.app",
+      "image": "",
+      "tags": [
+        "Presentation",
+        "Storytelling",
+        "Slides"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "DALL-E images",
+        "Page generation",
+        "Embed web content"
+      ],
+      "pros": [
+        "Beautiful defaults",
+        "Text to Slide",
+        "Mobile responsive"
+      ],
+      "cons": [
+        "Export limits on free",
+        "Less layout control"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "666f21e53e4d3207fbeb3f02",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4,
+      "dataCreated": "2026-01-03T19:46:06.073Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971fe5b9608b1eb8fc53a",
+      "name": "Gamma",
+      "slug": "gamma",
+      "description": "A new medium for presenting ideas. Powered by AI.",
+      "longDescription": "A new medium for presenting ideas. Powered by AI.",
+      "link": "https://gamma.app",
+      "image": "",
+      "tags": [
+        "Presentation",
+        "Docs",
+        "Web"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "One-click polish",
+        "Analytics",
+        "Live presentation"
+      ],
+      "pros": [
+        "Flexible cards",
+        "Fast generation",
+        "Interactive"
+      ],
+      "cons": [
+        "Not PPT export perfect",
+        "Credit based"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "666f21e53e4d3207fbeb3f02",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.8,
+      "dataCreated": "2026-01-03T19:46:06.328Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971fe5b9608b1eb8fc53d",
+      "name": "Looka",
+      "slug": "looka",
+      "description": "Design your own beautiful brand. Use AI to design a logo and build a brand you love.",
+      "longDescription": "Design your own beautiful brand. Use AI to design a logo and build a brand you love.",
+      "link": "https://looka.com",
+      "image": "",
+      "tags": [
+        "Logo",
+        "Branding",
+        "Design"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Logo Maker",
+        "Brand Kit"
+      ],
+      "pros": [
+        "Quick logos",
+        "Brand kit generation"
+      ],
+      "cons": [
+        "pay per download"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720df1a74edf6ee62f602a",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.7,
+      "dataCreated": "2026-01-03T19:46:06.601Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971fe5b9608b1eb8fc540",
+      "name": "Brandmark",
+      "slug": "brandmark",
+      "description": "Create a unique, professional logo for your business.",
+      "longDescription": "Create a unique, professional logo for your business.",
+      "link": "https://brandmark.io",
+      "image": "",
+      "tags": [
+        "Logo",
+        "Design"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Logo design",
+        "Business card designs"
+      ],
+      "pros": [
+        "Clean designs",
+        "Mockups"
+      ],
+      "cons": [
+        "Limited customizability"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720df1a74edf6ee62f602a",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.8,
+      "dataCreated": "2026-01-03T19:46:06.858Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971ff5b9608b1eb8fc543",
+      "name": "DeepL",
+      "slug": "deepl",
+      "description": "The world's most accurate translator.",
+      "longDescription": "The world's most accurate translator.",
+      "link": "https://www.deepl.com",
+      "image": "",
+      "tags": [
+        "Translation",
+        "Language"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Doc translation",
+        "API"
+      ],
+      "pros": [
+        "Better than Google Translate",
+        "Context aware"
+      ],
+      "cons": [
+        "Fewer languages"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720e63a74edf6ee62f6030",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.6,
+      "dataCreated": "2026-01-03T19:46:07.124Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971ff5b9608b1eb8fc546",
+      "name": "Quillbot",
+      "slug": "quillbot",
+      "description": "AI-powered paraphrasing tool. Enhance your writing.",
+      "longDescription": "AI-powered paraphrasing tool. Enhance your writing.",
+      "link": "https://quillbot.com",
+      "image": "",
+      "tags": [
+        "Writing",
+        "Education"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Paraphraser",
+        "Summarizer"
+      ],
+      "pros": [
+        "Excellent rewriting",
+        "Grammar checker"
+      ],
+      "cons": [
+        "Word limit on free"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720e63a74edf6ee62f6030",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.9,
+      "dataCreated": "2026-01-03T19:46:07.486Z",
+      "__v": 0
+    },
+    {
+      "_id": "695971ff5b9608b1eb8fc549",
+      "name": "Character.ai",
+      "slug": "character-ai",
+      "description": "Chat with realistic AI characters that feel alive.",
+      "longDescription": "Chat with realistic AI characters that feel alive.",
+      "link": "https://beta.character.ai",
+      "image": "",
+      "tags": [
+        "Fun",
+        "Chatbot",
+        "Roleplay"
+      ],
+      "pricing": "Free",
+      "features": [
+        "Character creation",
+        "Group chat"
+      ],
+      "pros": [
+        "Highly engaging",
+        "Create your own"
+      ],
+      "cons": [
+        "Filter limitations",
+        "Wait times"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720e63a74edf6ee62f6030",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.1,
+      "dataCreated": "2026-01-03T19:46:07.761Z",
+      "__v": 0
+    },
+    {
+      "_id": "695972005b9608b1eb8fc54c",
+      "name": "Hugging Face",
+      "slug": "hugging-face",
+      "description": "The AI community building the future. Build, train and deploy state of the art models.",
+      "longDescription": "The AI community building the future. Build, train and deploy state of the art models.",
+      "link": "https://huggingface.co",
+      "image": "",
+      "tags": [
+        "Open Source",
+        "Models",
+        "Community"
+      ],
+      "pricing": "Free",
+      "features": [
+        "Model hosting",
+        "Datasets"
+      ],
+      "pros": [
+        "Massive library",
+        "Spaces for demos"
+      ],
+      "cons": [
+        "Technical"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "666f21e53e4d3207fbeb3f02",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.8,
+      "dataCreated": "2026-01-03T19:46:08.184Z",
+      "__v": 0
+    },
+    {
+      "_id": "695972005b9608b1eb8fc54f",
+      "name": "Replicate",
+      "slug": "replicate",
+      "description": "Run AI with an API. A library of open-source models.",
+      "longDescription": "Run AI with an API. A library of open-source models.",
+      "link": "https://replicate.com",
+      "image": "",
+      "tags": [
+        "API",
+        "Deployment",
+        "Dev"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Run models",
+        "Fine-tuning"
+      ],
+      "pros": [
+        "Easy API",
+        "Pay per second"
+      ],
+      "cons": [
+        "Cold starts"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "666f21e53e4d3207fbeb3f02",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.3,
+      "dataCreated": "2026-01-03T19:46:08.447Z",
+      "__v": 0
+    },
+    {
+      "_id": "695972005b9608b1eb8fc552",
+      "name": "Pinecone",
+      "slug": "pinecone",
+      "description": "The vector database for building high-performance vector search applications.",
+      "longDescription": "The vector database for building high-performance vector search applications.",
+      "link": "https://www.pinecone.io",
+      "image": "",
+      "tags": [
+        "Database",
+        "Vector",
+        "Search"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Vector search",
+        "Metadata filtering"
+      ],
+      "pros": [
+        "Managed service",
+        "Fast"
+      ],
+      "cons": [
+        "Cost at scale"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "666f21e53e4d3207fbeb3f02",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.2,
+      "dataCreated": "2026-01-03T19:46:08.691Z",
+      "__v": 0
+    },
+    {
+      "_id": "695972005b9608b1eb8fc555",
+      "name": "LangChain",
+      "slug": "langchain",
+      "description": "Building applications with LLMs through composability.",
+      "longDescription": "Building applications with LLMs through composability.",
+      "link": "https://www.langchain.com",
+      "image": "",
+      "tags": [
+        "Framework",
+        "LLM",
+        "Dev"
+      ],
+      "pricing": "Free",
+      "features": [
+        "Chains",
+        "Agents"
+      ],
+      "pros": [
+        "Standard for LLM apps",
+        "Powerful chains"
+      ],
+      "cons": [
+        "Complex abstractions"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "666f21e53e4d3207fbeb3f02",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.4,
+      "dataCreated": "2026-01-03T19:46:08.937Z",
+      "__v": 0
+    },
+    {
+      "_id": "695972015b9608b1eb8fc558",
+      "name": "Zapier",
+      "slug": "zapier",
+      "description": "The leader in no-code automation now with AI powers.",
+      "longDescription": "The leader in no-code automation now with AI powers.",
+      "link": "https://zapier.com",
+      "image": "",
+      "tags": [
+        "Automation",
+        "Workflow"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Zaps",
+        "Canvas"
+      ],
+      "pros": [
+        "Connects everything",
+        "AI actions"
+      ],
+      "cons": [
+        "Expensive tiers"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "666f21e53e4d3207fbeb3f02",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.7,
+      "dataCreated": "2026-01-03T19:46:09.219Z",
+      "__v": 0
+    },
+    {
+      "_id": "695972015b9608b1eb8fc55b",
+      "name": "Make",
+      "slug": "make",
+      "description": "Visual platform for automated workflows.",
+      "longDescription": "Visual platform for automated workflows.",
+      "link": "https://www.make.com",
+      "image": "",
+      "tags": [
+        "Automation",
+        "Visual"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Scenarios",
+        "Webhooks"
+      ],
+      "pros": [
+        "Visual builder",
+        "Cheaper than Zapier"
+      ],
+      "cons": [
+        "Slightly harder to learn"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "666f21e53e4d3207fbeb3f02",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.9,
+      "dataCreated": "2026-01-03T19:46:09.490Z",
+      "__v": 0
+    },
+    {
+      "_id": "695973585b9608b1eb8fc57d",
+      "name": "Khanmigo",
+      "slug": "khanmigo",
+      "description": "Khan Academy's AI-powered guide. It's a tutor for learners and an assistant for teachers.",
+      "longDescription": "Khan Academy's AI-powered guide. It's a tutor for learners and an assistant for teachers.",
+      "link": "https://www.khanacademy.org/khan-labs",
+      "image": "",
+      "tags": [
+        "Tutor",
+        "Learning",
+        "Education"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Socratic method",
+        "Lesson planning",
+        "Writing coach"
+      ],
+      "pros": [
+        "Personalized tutoring",
+        "Safe for students",
+        "Integrates with Khan Academy"
+      ],
+      "cons": [
+        "Limited subjects",
+        "Waitlist access sometimes"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720eaba74edf6ee62f6035",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.6,
+      "dataCreated": "2026-01-03T19:51:52.426Z",
+      "__v": 0
+    },
+    {
+      "_id": "695973585b9608b1eb8fc581",
+      "name": "Duolingo Max",
+      "slug": "duolingo-max",
+      "description": "Supercharge your language learning with GPT-4 powered features like Roleplay and Explain My Answer.",
+      "longDescription": "Supercharge your language learning with GPT-4 powered features like Roleplay and Explain My Answer.",
+      "link": "https://www.duolingo.com",
+      "image": "",
+      "tags": [
+        "Language",
+        "Learning"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Roleplay",
+        "Explain My Answer",
+        "Personalized lessons"
+      ],
+      "pros": [
+        "Highly engaging",
+        "Real conversation practice",
+        "Instant feedback"
+      ],
+      "cons": [
+        "Expensive subscription",
+        "Mobile only features"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720eaba74edf6ee62f6035",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.8,
+      "dataCreated": "2026-01-03T19:51:52.687Z",
+      "__v": 0
+    },
+    {
+      "_id": "695973595b9608b1eb8fc584",
+      "name": "Socratic by Google",
+      "slug": "socratic-by-google",
+      "description": "Get unstuck. Learn better. Socratic asks you to take a photo of your homework and provides resources.",
+      "longDescription": "Get unstuck. Learn better. Socratic asks you to take a photo of your homework and provides resources.",
+      "link": "https://socratic.org",
+      "image": "",
+      "tags": [
+        "Homework",
+        "Helper",
+        "Mobile"
+      ],
+      "pricing": "Free",
+      "features": [
+        "Photo search",
+        "Subject guides",
+        "Video curations"
+      ],
+      "pros": [
+        "Completely free",
+        "Covers many subjects",
+        "Visual explanations"
+      ],
+      "cons": [
+        "Mobile app only",
+        "Not a full tutor"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720eaba74edf6ee62f6035",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.6,
+      "dataCreated": "2026-01-03T19:51:53.022Z",
+      "__v": 0
+    },
+    {
+      "_id": "695973595b9608b1eb8fc587",
+      "name": "Quizlet",
+      "slug": "quizlet",
+      "description": "AI-powered flashcards and study tools. Magic Notes turns your notes into flashcards instantly.",
+      "longDescription": "AI-powered flashcards and study tools. Magic Notes turns your notes into flashcards instantly.",
+      "link": "https://quizlet.com",
+      "image": "",
+      "tags": [
+        "Study",
+        "Flashcards"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Magic Notes",
+        "Q-Chat",
+        "Spaced repetition"
+      ],
+      "pros": [
+        "Huge user library",
+        "Magic Notes is fast",
+        "Gamified"
+      ],
+      "cons": [
+        "Ads on free version",
+        "Accuracy varies"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720eaba74edf6ee62f6035",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.8,
+      "dataCreated": "2026-01-03T19:51:53.277Z",
+      "__v": 0
+    },
+    {
+      "_id": "695973595b9608b1eb8fc58a",
+      "name": "Coursera Coach",
+      "slug": "coursera-coach",
+      "description": "An AI blended learning experience. Get personalized feedback and summaries for courses.",
+      "longDescription": "An AI blended learning experience. Get personalized feedback and summaries for courses.",
+      "link": "https://www.coursera.org",
+      "image": "",
+      "tags": [
+        "MOOC",
+        "University",
+        "Upskilling"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Course summarization",
+        "Concept explanation",
+        "Career advice"
+      ],
+      "pros": [
+        "University quality content",
+        "AI summaries",
+        "Career guidance"
+      ],
+      "cons": [
+        "Course fees",
+        "Time commitment"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720eaba74edf6ee62f6035",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.5,
+      "dataCreated": "2026-01-03T19:51:53.578Z",
+      "__v": 0
+    },
+    {
+      "_id": "695973595b9608b1eb8fc58d",
+      "name": "Brainly",
+      "slug": "brainly",
+      "description": "The world's largest social learning community using AI to help students with homework.",
+      "longDescription": "The world's largest social learning community using AI to help students with homework.",
+      "link": "https://brainly.com",
+      "image": "",
+      "tags": [
+        "Homework",
+        "Community"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Scan to solve",
+        "Textbook solutions",
+        "AI tutor"
+      ],
+      "pros": [
+        "Fast answers",
+        "Peer reviewed",
+        "Global community"
+      ],
+      "cons": [
+        "Answer quality varies",
+        "Ads"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720eaba74edf6ee62f6035",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.8,
+      "dataCreated": "2026-01-03T19:51:53.851Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959735a5b9608b1eb8fc590",
+      "name": "BloombergGPT",
+      "slug": "bloomberggpt",
+      "description": "A large language model purpose-built for finance. Unlocks new opportunities for data analysis.",
+      "longDescription": "A large language model purpose-built for finance. Unlocks new opportunities for data analysis.",
+      "link": "https://www.bloomberg.com/company/press/bloomberggpt/",
+      "image": "",
+      "tags": [
+        "Finance",
+        "Enterprise",
+        "Investment"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Sentiment analysis",
+        "Risk assessmnent",
+        "Market prediction"
+      ],
+      "pros": [
+        "Domain specific accuracy",
+        "High security",
+        "Deep market data"
+      ],
+      "cons": [
+        "Not public facing",
+        "Enterprise only"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720ea0a74edf6ee62f6034",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.8,
+      "dataCreated": "2026-01-03T19:51:54.203Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959735a5b9608b1eb8fc593",
+      "name": "Cleo",
+      "slug": "cleo",
+      "description": "An AI assistant that looks after your money. It roasts you for spending but helps you save.",
+      "longDescription": "An AI assistant that looks after your money. It roasts you for spending but helps you save.",
+      "link": "https://web.meetcleo.com",
+      "image": "",
+      "tags": [
+        "Personal Finance",
+        "Budgeting",
+        "Chatbot"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Roast mode",
+        "Auto-savings",
+        "Credit building"
+      ],
+      "pros": [
+        "Hilarious personality",
+        "Engaging UI",
+        "Actionable advice"
+      ],
+      "cons": [
+        "Subscription for credit builder",
+        "Tone not for everyone"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720ea0a74edf6ee62f6034",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.4,
+      "dataCreated": "2026-01-03T19:51:54.505Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959735a5b9608b1eb8fc596",
+      "name": "AlphaSense",
+      "slug": "alphasense",
+      "description": "Market intelligence and search platform used by the world's leading companies.",
+      "longDescription": "Market intelligence and search platform used by the world's leading companies.",
+      "link": "https://www.alpha-sense.com",
+      "image": "",
+      "tags": [
+        "Intelligence",
+        "Search",
+        "B2B"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Smart Synonyms",
+        "Table extraction",
+        "Broker research"
+      ],
+      "pros": [
+        "Massive document library",
+        "Smart summarization",
+        "Trusted by Wall St"
+      ],
+      "cons": [
+        "Very expensive",
+        "Corporate focus"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720ea0a74edf6ee62f6034",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.9,
+      "dataCreated": "2026-01-03T19:51:54.777Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959735b5b9608b1eb8fc599",
+      "name": "Trim",
+      "slug": "trim",
+      "description": "AI that negotiates your bills and cancels unwanted subscriptions.",
+      "longDescription": "AI that negotiates your bills and cancels unwanted subscriptions.",
+      "link": "https://www.asktrim.com",
+      "image": "",
+      "tags": [
+        "Savings",
+        "Negotiation"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Bill negotiation",
+        "Subscription cancellation",
+        "Bank sync"
+      ],
+      "pros": [
+        "Automated savings",
+        "Finds forgotten subs",
+        "Secure"
+      ],
+      "cons": [
+        "Takes a cut of savings",
+        "US only mostly"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720ea0a74edf6ee62f6034",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.6,
+      "dataCreated": "2026-01-03T19:51:55.119Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959735b5b9608b1eb8fc59c",
+      "name": "FICO",
+      "slug": "fico",
+      "description": "Using AI to power credit scoring and fraud detection for decades.",
+      "longDescription": "Using AI to power credit scoring and fraud detection for decades.",
+      "link": "https://www.fico.com",
+      "image": "",
+      "tags": [
+        "Credit",
+        "Scoring"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Score Planner",
+        "Fraud protection",
+        "Decision management"
+      ],
+      "pros": [
+        "Industry standard",
+        "Highly accurate",
+        "Explainable"
+      ],
+      "cons": [
+        "Complex integration",
+        "B2B focused"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720ea0a74edf6ee62f6034",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.5,
+      "dataCreated": "2026-01-03T19:51:55.389Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959735b5b9608b1eb8fc59f",
+      "name": "Ada Health",
+      "slug": "ada-health",
+      "description": "AI-powered symptom checker that helps you understand your health.",
+      "longDescription": "AI-powered symptom checker that helps you understand your health.",
+      "link": "https://ada.com",
+      "image": "",
+      "tags": [
+        "Symptom Checker",
+        "Medical"
+      ],
+      "pricing": "Free",
+      "features": [
+        "Symptom assessment",
+        "Condition library",
+        "Care navigation"
+      ],
+      "pros": [
+        "Doctor designed",
+        "User friendly",
+        "Global coverage"
+      ],
+      "cons": [
+        "Not a diagnosis",
+        "Limited to symptoms"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720e90a74edf6ee62f6033",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.6,
+      "dataCreated": "2026-01-03T19:51:55.660Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959735b5b9608b1eb8fc5a2",
+      "name": "Merative",
+      "slug": "merative",
+      "description": "Formerly IBM Watson Health. Data, analytics and technology for the health industry.",
+      "longDescription": "Formerly IBM Watson Health. Data, analytics and technology for the health industry.",
+      "link": "https://www.merative.com",
+      "image": "",
+      "tags": [
+        "Enterprise",
+        "Analytics",
+        "Imaging"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Clinical decision support",
+        "Imaging AI",
+        "Real-world evidence"
+      ],
+      "pros": [
+        "Deep clinical data",
+        "Imaging analysis",
+        "Research grade"
+      ],
+      "cons": [
+        "Complex ecosystem",
+        "Enterprise pricing"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720e90a74edf6ee62f6033",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.9,
+      "dataCreated": "2026-01-03T19:51:55.914Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959735c5b9608b1eb8fc5a5",
+      "name": "Viz.ai",
+      "slug": "viz-ai",
+      "description": "Uses AI to synchronize stroke care and decrease time to treatment.",
+      "longDescription": "Uses AI to synchronize stroke care and decrease time to treatment.",
+      "link": "https://www.viz.ai",
+      "image": "",
+      "tags": [
+        "Medical",
+        "Stroke",
+        "Emergency"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Stroke detection",
+        "Care coordination",
+        "CT scan analysis"
+      ],
+      "pros": [
+        "Life saving speed",
+        "FDA cleared",
+        "Mobile alerts"
+      ],
+      "cons": [
+        "Hospital implementation required",
+        "Niche use"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720e90a74edf6ee62f6033",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.4,
+      "dataCreated": "2026-01-03T19:51:56.167Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959735c5b9608b1eb8fc5a8",
+      "name": "Buoy Health",
+      "slug": "buoy-health",
+      "description": "Check symptoms and find the right care with AI.",
+      "longDescription": "Check symptoms and find the right care with AI.",
+      "link": "https://www.buoyhealth.com",
+      "image": "",
+      "tags": [
+        "Triage",
+        "Symptom"
+      ],
+      "pricing": "Free",
+      "features": [
+        "Symptom checker",
+        "Care marketplace",
+        "health benefits"
+      ],
+      "pros": [
+        "Conversational interface",
+        "Evidence based",
+        "Care matching"
+      ],
+      "cons": [
+        "US centric",
+        "General triage only"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720e90a74edf6ee62f6033",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.8,
+      "dataCreated": "2026-01-03T19:51:56.416Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959735c5b9608b1eb8fc5ab",
+      "name": "Google Health",
+      "slug": "google-health",
+      "description": "Developing AI to help screen for diseases like diabetic retinopathy and breast cancer.",
+      "longDescription": "Developing AI to help screen for diseases like diabetic retinopathy and breast cancer.",
+      "link": "https://health.google",
+      "image": "",
+      "tags": [
+        "Research",
+        "Screening"
+      ],
+      "pricing": "Free",
+      "features": [
+        "Dermatology assist",
+        "Cancer screening",
+        "Care Studio"
+      ],
+      "pros": [
+        "Cutting edge capability",
+        "Integration with tools",
+        "Research backed"
+      ],
+      "cons": [
+        "Mostly research/B2B",
+        "Privacy concerns"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720e90a74edf6ee62f6033",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.8,
+      "dataCreated": "2026-01-03T19:51:56.696Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959735c5b9608b1eb8fc5ae",
+      "name": "NVIDIA DLSS",
+      "slug": "nvidia-dlss",
+      "description": "Deep Learning Super Sampling. AI rendering technology that boosts graphics performance.",
+      "longDescription": "Deep Learning Super Sampling. AI rendering technology that boosts graphics performance.",
+      "link": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+      "image": "",
+      "tags": [
+        "Graphics",
+        "RTX",
+        "Performance"
+      ],
+      "pricing": "Free",
+      "features": [
+        "Frame generation",
+        "Super resolution",
+        "Ray reconstruction"
+      ],
+      "pros": [
+        "Huge FPS boost",
+        "Better image quality",
+        "Industry standard"
+      ],
+      "cons": [
+        "Requires RTX card",
+        "Game support needed"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720eb7a74edf6ee62f6036",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.3,
+      "dataCreated": "2026-01-03T19:51:56.944Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959735d5b9608b1eb8fc5b1",
+      "name": "Unity Muse",
+      "slug": "unity-muse",
+      "description": "An AI platform for content creation. accelerate 3D and 2D creation.",
+      "longDescription": "An AI platform for content creation. accelerate 3D and 2D creation.",
+      "link": "https://unity.com/products/muse",
+      "image": "",
+      "tags": [
+        "Game Dev",
+        "3D",
+        "Textures"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Texture generation",
+        "Sprite generation",
+        "Chat assist"
+      ],
+      "pros": [
+        "Integrated in Unity",
+        "Copyright safe models",
+        "Fast prototyping"
+      ],
+      "cons": [
+        "Subscription cost",
+        "Beta features"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720eb7a74edf6ee62f6036",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.9,
+      "dataCreated": "2026-01-03T19:51:57.212Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959735d5b9608b1eb8fc5b4",
+      "name": "Inworld AI",
+      "slug": "inworld-ai",
+      "description": "The leading character engine for games and interactive experiences.",
+      "longDescription": "The leading character engine for games and interactive experiences.",
+      "link": "https://inworld.ai",
+      "image": "",
+      "tags": [
+        "NPCs",
+        "Dialogue",
+        "Characters"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Character brain",
+        "Context awareness",
+        "Emotional behavior"
+      ],
+      "pros": [
+        "Realistic NPCs",
+        "Cross-engine support",
+        "Memory system"
+      ],
+      "cons": [
+        "Latency considerations",
+        "Token usage"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720eb7a74edf6ee62f6036",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.7,
+      "dataCreated": "2026-01-03T19:51:57.463Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959735d5b9608b1eb8fc5b7",
+      "name": "Scenario",
+      "slug": "scenario",
+      "description": "AI-generated game assets. Create high-quality, style-consistent assets.",
+      "longDescription": "AI-generated game assets. Create high-quality, style-consistent assets.",
+      "link": "https://www.scenario.com",
+      "image": "",
+      "tags": [
+        "Assets",
+        "Textures",
+        "Mobile"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Custom model training",
+        "API generation",
+        "Asset management"
+      ],
+      "pros": [
+        "Fine-tuning on own art",
+        "Consistent style",
+        "Fast generation"
+      ],
+      "cons": [
+        "2D focused",
+        "Learning curve"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720eb7a74edf6ee62f6036",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.5,
+      "dataCreated": "2026-01-03T19:51:57.712Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959735d5b9608b1eb8fc5ba",
+      "name": "Modl.ai",
+      "slug": "modl-ai",
+      "description": "AI bots for game testing and development. Automated QA.",
+      "longDescription": "AI bots for game testing and development. Automated QA.",
+      "link": "https://modl.ai",
+      "image": "",
+      "tags": [
+        "QA",
+        "Testing",
+        "Bots"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Automated testing",
+        "Player simulation",
+        "Glitch detection"
+      ],
+      "pros": [
+        "Finds bugs fast",
+        "Simulates player behavior",
+        "Saves testing hours"
+      ],
+      "cons": [
+        "B2B focused",
+        "Setup required"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720eb7a74edf6ee62f6036",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.7,
+      "dataCreated": "2026-01-03T19:51:57.961Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959735e5b9608b1eb8fc5bd",
+      "name": "Darktrace",
+      "slug": "darktrace",
+      "description": "Self-learning AI that detects and responds to cyber threats in real-time.",
+      "longDescription": "Self-learning AI that detects and responds to cyber threats in real-time.",
+      "link": "https://darktrace.com",
+      "image": "",
+      "tags": [
+        "Security",
+        "Enterprise",
+        "Network"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Enterprise Immune System",
+        "Antigena",
+        "Cyber AI Analyst"
+      ],
+      "pros": [
+        "Autonomous response",
+        "Visualizes threats",
+        "Covers email/cloud"
+      ],
+      "cons": [
+        "High cost",
+        "Complex monitoring"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720e83a74edf6ee62f6032",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.5,
+      "dataCreated": "2026-01-03T19:51:58.262Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959735e5b9608b1eb8fc5c0",
+      "name": "CrowdStrike Falcon",
+      "slug": "crowdstrike-falcon",
+      "description": "AI-native platform to stop breaches. Cloud-delivered endpoint protection.",
+      "longDescription": "AI-native platform to stop breaches. Cloud-delivered endpoint protection.",
+      "link": "https://www.crowdstrike.com",
+      "image": "",
+      "tags": [
+        "Endpoint",
+        "Cloud",
+        "Protection"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Endpoint detection",
+        "Threat hunting",
+        "Identity protection"
+      ],
+      "pros": [
+        "Lightweight agent",
+        "Threat intelligence",
+        "Fast deployment"
+      ],
+      "cons": [
+        "Enterprise focused",
+        "Cost"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720e83a74edf6ee62f6032",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.7,
+      "dataCreated": "2026-01-03T19:51:58.514Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959735e5b9608b1eb8fc5c3",
+      "name": "Tessian",
+      "slug": "tessian",
+      "description": "Cloud email security platform that intelligently prevents advanced email attacks.",
+      "longDescription": "Cloud email security platform that intelligently prevents advanced email attacks.",
+      "link": "https://www.tessian.com",
+      "image": "",
+      "tags": [
+        "Email",
+        "Phishing"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Phishing defense",
+        "Data loss prevention",
+        "Coaching"
+      ],
+      "pros": [
+        "Stops human error",
+        "Context aware",
+        "Low false positives"
+      ],
+      "cons": [
+        "Email only",
+        "Enterprise pricing"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720e83a74edf6ee62f6032",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.5,
+      "dataCreated": "2026-01-03T19:51:58.763Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959735f5b9608b1eb8fc5c6",
+      "name": "Snyk",
+      "slug": "snyk",
+      "description": "Developer security platform. Find and fix vulnerabilities in code and containers.",
+      "longDescription": "Developer security platform. Find and fix vulnerabilities in code and containers.",
+      "link": "https://snyk.io",
+      "image": "",
+      "tags": [
+        "DevSecOps",
+        "Code"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Code scanning",
+        "Container security",
+        "IaC security"
+      ],
+      "pros": [
+        "Developer friendly",
+        "IDE integration",
+        "DeepCode AI"
+      ],
+      "cons": [
+        "Scan limits on free",
+        "Can be noisy"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720e83a74edf6ee62f6032",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.3,
+      "dataCreated": "2026-01-03T19:51:59.009Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959735f5b9608b1eb8fc5c9",
+      "name": "Tableau AI",
+      "slug": "tableau-ai",
+      "description": "The world's leading analytics platform, now with Einstein GPT.",
+      "longDescription": "The world's leading analytics platform, now with Einstein GPT.",
+      "link": "https://www.tableau.com",
+      "image": "",
+      "tags": [
+        "Visualize",
+        "BI",
+        "Analytics"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Data Stories",
+        "Ask Data",
+        "Predictive modeling"
+      ],
+      "pros": [
+        "Visualize anything",
+        "Natural language query",
+        "Enterprise scale"
+      ],
+      "cons": [
+        "Steep learning curve",
+        "Expensive"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720e2aa74edf6ee62f602d",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.4,
+      "dataCreated": "2026-01-03T19:51:59.312Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959735f5b9608b1eb8fc5cc",
+      "name": "Polymer",
+      "slug": "polymer",
+      "description": "Business intelligence without the steep learning curve. The AI data analyst.",
+      "longDescription": "Business intelligence without the steep learning curve. The AI data analyst.",
+      "link": "https://www.polymersearch.com",
+      "image": "",
+      "tags": [
+        "No-code",
+        "Spreadsheets"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Auto-insights",
+        "Searchable data",
+        "Pivot tables"
+      ],
+      "pros": [
+        "Beautiful dashboards",
+        "Easy setup",
+        "interactive"
+      ],
+      "cons": [
+        "Large datasets get slow",
+        "Limited connectors"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720e2aa74edf6ee62f602d",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.5,
+      "dataCreated": "2026-01-03T19:51:59.590Z",
+      "__v": 0
+    },
+    {
+      "_id": "6959735f5b9608b1eb8fc5cf",
+      "name": "Akkio",
+      "slug": "akkio",
+      "description": "Generative AI for Analytics. Chat with your data.",
+      "longDescription": "Generative AI for Analytics. Chat with your data.",
+      "link": "https://www.akkio.com",
+      "image": "",
+      "tags": [
+        "Predictive",
+        "No-code"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Chat Explore",
+        "Forecasting",
+        "Data cleaning"
+      ],
+      "pros": [
+        "Very easy to use",
+        "Chat interface",
+        "Fast training"
+      ],
+      "cons": [
+        "Data limits",
+        "Subscription"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720e2aa74edf6ee62f602d",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.4,
+      "dataCreated": "2026-01-03T19:51:59.871Z",
+      "__v": 0
+    },
+    {
+      "_id": "695973605b9608b1eb8fc5d2",
+      "name": "Alteryx",
+      "slug": "alteryx",
+      "description": "Automated analytics excellence. Prepare, blend, and analyze data.",
+      "longDescription": "Automated analytics excellence. Prepare, blend, and analyze data.",
+      "link": "https://www.alteryx.com",
+      "image": "",
+      "tags": [
+        "ETL",
+        "Workflow"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Auto Insights",
+        "Magic Documents",
+        "Workflow generation"
+      ],
+      "pros": [
+        "Powerful workflows",
+        "AiDIN engine",
+        "Connects to anything"
+      ],
+      "cons": [
+        "Legacy UI",
+        "Expensive"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720e2aa74edf6ee62f602d",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.6,
+      "dataCreated": "2026-01-03T19:52:00.121Z",
+      "__v": 0
+    },
+    {
+      "_id": "695973605b9608b1eb8fc5d5",
+      "name": "MonkeyLearn",
+      "slug": "monkeylearn",
+      "description": "No-code text analytics. Analyze sentiment, classify topics, and extract data.",
+      "longDescription": "No-code text analytics. Analyze sentiment, classify topics, and extract data.",
+      "link": "https://monkeylearn.com",
+      "image": "",
+      "tags": [
+        "NLP",
+        "Classification"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Sentiment analysis",
+        "Keyword extractor",
+        "Topic classifier"
+      ],
+      "pros": [
+        "Easy UI",
+        "Pre-trained models",
+        "API"
+      ],
+      "cons": [
+        "Can be pricey",
+        "Limited free tier"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720ed6a74edf6ee62f6038",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.7,
+      "dataCreated": "2026-01-03T19:52:00.476Z",
+      "__v": 0
+    },
+    {
+      "_id": "695973605b9608b1eb8fc5d8",
+      "name": "Aylien",
+      "slug": "aylien",
+      "description": "News Intelligence Platform. Ingest, analyze, and understand news data.",
+      "longDescription": "News Intelligence Platform. Ingest, analyze, and understand news data.",
+      "link": "https://aylien.com",
+      "image": "",
+      "tags": [
+        "News",
+        "Intelligence"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "News API",
+        "Entity recognition",
+        "Sentiment scoring"
+      ],
+      "pros": [
+        "Global coverage",
+        "Real-time",
+        "Event detection"
+      ],
+      "cons": [
+        "Enterprise focus",
+        "API cost"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720ed6a74edf6ee62f6038",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.3,
+      "dataCreated": "2026-01-03T19:52:00.758Z",
+      "__v": 0
+    },
+    {
+      "_id": "695973615b9608b1eb8fc5db",
+      "name": "SpaCy",
+      "slug": "spacy",
+      "description": "Industrial-strength Natural Language Processing in Python.",
+      "longDescription": "Industrial-strength Natural Language Processing in Python.",
+      "link": "https://spacy.io",
+      "image": "",
+      "tags": [
+        "Library",
+        "Python",
+        "Dev"
+      ],
+      "pricing": "Free",
+      "features": [
+        "Tokenization",
+        "NER",
+        "POS tagging"
+      ],
+      "pros": [
+        "Fastest in the world",
+        "Open source",
+        "Easy to use"
+      ],
+      "cons": [
+        "Requires coding",
+        "Not a SaaS"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720e0ca74edf6ee62f602b",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.2,
+      "dataCreated": "2026-01-03T19:52:01.065Z",
+      "__v": 0
+    },
+    {
+      "_id": "695973615b9608b1eb8fc5de",
+      "name": "Hugging Face Transformers",
+      "slug": "hugging-face-transformers",
+      "description": "State-of-the-art Machine Learning for Pytorch, TensorFlow, and JAX.",
+      "longDescription": "State-of-the-art Machine Learning for Pytorch, TensorFlow, and JAX.",
+      "link": "https://huggingface.co/docs/transformers",
+      "image": "",
+      "tags": [
+        "Model",
+        "Research"
+      ],
+      "pricing": "Free",
+      "features": [
+        "BERT",
+        "GPT",
+        "T5"
+      ],
+      "pros": [
+        "Access to strict SOTA",
+        "Massive community",
+        "Free"
+      ],
+      "cons": [
+        "Significant technical skill needed"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720e0ca74edf6ee62f602b",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.5,
+      "dataCreated": "2026-01-03T19:52:01.420Z",
+      "__v": 0
+    },
+    {
+      "_id": "695973615b9608b1eb8fc5e1",
+      "name": "Niantic Lightship",
+      "slug": "niantic-lightship",
+      "description": "The AR developer platform for the Real-World Metaverse.",
+      "longDescription": "The AR developer platform for the Real-World Metaverse.",
+      "link": "https://lightship.dev",
+      "image": "",
+      "tags": [
+        "AR",
+        "Geo",
+        "Mobile"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Depth API",
+        "Semantics",
+        "VPS"
+      ],
+      "pros": [
+        "Real-world mapping",
+        "Pokemon Go tech",
+        "Multiplayer AR"
+      ],
+      "cons": [
+        "Unity focus",
+        "battery drain"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720effa74edf6ee62f603a",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.3,
+      "dataCreated": "2026-01-03T19:52:01.665Z",
+      "__v": 0
+    },
+    {
+      "_id": "695973615b9608b1eb8fc5e4",
+      "name": "8th Wall",
+      "slug": "8th-wall",
+      "description": "WebAR platform. Create powerful augmented reality experiences that run in the browser.",
+      "longDescription": "WebAR platform. Create powerful augmented reality experiences that run in the browser.",
+      "link": "https://www.8thwall.com",
+      "image": "",
+      "tags": [
+        "WebAR",
+        "Marketing"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Image targets",
+        "World tracking",
+        "Face effects"
+      ],
+      "pros": [
+        "No app required",
+        "Broad reach",
+        "High quality"
+      ],
+      "cons": [
+        "Expensive monthly",
+        "Web limits"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720effa74edf6ee62f603a",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.8,
+      "dataCreated": "2026-01-03T19:52:01.919Z",
+      "__v": 0
+    },
+    {
+      "_id": "695973625b9608b1eb8fc5e7",
+      "name": "Vuforia",
+      "slug": "vuforia",
+      "description": "Market-leading enterprise AR solutions.",
+      "longDescription": "Market-leading enterprise AR solutions.",
+      "link": "https://www.ptc.com/en/products/vuforia",
+      "image": "",
+      "tags": [
+        "Industrial",
+        "Enterprise"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Model targets",
+        "Area targets",
+        "Chalk remote assist"
+      ],
+      "pros": [
+        "Robust tracking",
+        "Industrial focus",
+        "CAD integration"
+      ],
+      "cons": [
+        "Complex licensing",
+        "Not for indie devs"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720effa74edf6ee62f603a",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.6,
+      "dataCreated": "2026-01-03T19:52:02.163Z",
+      "__v": 0
+    },
+    {
+      "_id": "695974db5b9608b1eb8fc66f",
+      "name": "Ecobee",
+      "slug": "ecobee",
+      "description": "Smart thermostat that uses AI to learn your schedule and save energy.",
+      "longDescription": "Smart thermostat that uses AI to learn your schedule and save energy.",
+      "link": "https://www.ecobee.com",
+      "image": "",
+      "tags": [
+        "Smart Home",
+        "Energy",
+        "IoT"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Smart sensors",
+        "Energy reports",
+        "Voice control"
+      ],
+      "pros": [
+        "Saves money",
+        "Works with Alexa/HomeKit",
+        "Easy install"
+      ],
+      "cons": [
+        "Hardware cost",
+        "Requires wifi"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720eeca74edf6ee62f6039",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.3,
+      "dataCreated": "2026-01-03T19:58:19.950Z",
+      "__v": 0
+    },
+    {
+      "_id": "695974dc5b9608b1eb8fc672",
+      "name": "Josh.ai",
+      "slug": "josh-ai",
+      "description": "Privacy-focused home automation system with natural voice control.",
+      "longDescription": "Privacy-focused home automation system with natural voice control.",
+      "link": "https://www.josh.ai",
+      "image": "",
+      "tags": [
+        "Privacy",
+        "Voice",
+        "Luxury"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Whole home control",
+        "Context awareness",
+        "Privacy guard"
+      ],
+      "pros": [
+        "Your data stays local",
+        "Natural conversation",
+        "Premium integration"
+      ],
+      "cons": [
+        "Expensive",
+        "Requires professional install"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720eeca74edf6ee62f6039",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.7,
+      "dataCreated": "2026-01-03T19:58:20.205Z",
+      "__v": 0
+    },
+    {
+      "_id": "695974dc5b9608b1eb8fc675",
+      "name": "Google Nest",
+      "slug": "google-nest",
+      "description": "A home that takes care of the people inside it and the world around it.",
+      "longDescription": "A home that takes care of the people inside it and the world around it.",
+      "link": "https://store.google.com/category/connected_home",
+      "image": "",
+      "tags": [
+        "Google",
+        "Home"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Face recognition",
+        "Activity zones",
+        "Automation"
+      ],
+      "pros": [
+        "Ecosystem integration",
+        "Sleek design",
+        "AI cameras"
+      ],
+      "cons": [
+        "Google privacy concerns",
+        "Locked ecosystem"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720eeca74edf6ee62f6039",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 5,
+      "dataCreated": "2026-01-03T19:58:20.444Z",
+      "__v": 0
+    },
+    {
+      "_id": "695974dc5b9608b1eb8fc678",
+      "name": "Siri",
+      "slug": "siri",
+      "description": "Apple's intelligent personal assistant.",
+      "longDescription": "Apple's intelligent personal assistant.",
+      "link": "https://www.apple.com/siri/",
+      "image": "",
+      "tags": [
+        "Apple",
+        "Voice",
+        "Mobile"
+      ],
+      "pricing": "Free",
+      "features": [
+        "Shortcuts",
+        "HomeKit",
+        "Suggestions"
+      ],
+      "pros": [
+        "Deep iOS integration",
+        "Privacy focus",
+        "Always available"
+      ],
+      "cons": [
+        "Can be dumb",
+        "Locked to Apple"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720e73a74edf6ee62f6031",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.9,
+      "dataCreated": "2026-01-03T19:58:20.711Z",
+      "__v": 0
+    },
+    {
+      "_id": "695974dc5b9608b1eb8fc67b",
+      "name": "Motion",
+      "slug": "motion",
+      "description": "Schedules your day automatically. The AI executive assistant.",
+      "longDescription": "Schedules your day automatically. The AI executive assistant.",
+      "link": "https://www.usemotion.com",
+      "image": "",
+      "tags": [
+        "Calendar",
+        "Productivity"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Intelligent calendar",
+        "Task manager",
+        "Booking links"
+      ],
+      "pros": [
+        "Auto-scheduling",
+        "Project management",
+        "Focus time"
+      ],
+      "cons": [
+        "Expensive subscription",
+        "High learning curve"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720e73a74edf6ee62f6031",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.2,
+      "dataCreated": "2026-01-03T19:58:20.992Z",
+      "__v": 0
+    },
+    {
+      "_id": "695974dd5b9608b1eb8fc67e",
+      "name": "Trevor AI",
+      "slug": "trevor-ai",
+      "description": "Plan your day with AI. The time blocking app that works.",
+      "longDescription": "Plan your day with AI. The time blocking app that works.",
+      "link": "https://www.trevorai.com",
+      "image": "",
+      "tags": [
+        "Time Blocking",
+        "Planning"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "Time blocking",
+        "Calendar sync",
+        "Duration estimates"
+      ],
+      "pros": [
+        "Visual planning",
+        "Syncs with Todoist",
+        "Smart suggestions"
+      ],
+      "cons": [
+        "UI is simple",
+        "Limited free tier"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720e73a74edf6ee62f6031",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.3,
+      "dataCreated": "2026-01-03T19:58:21.233Z",
+      "__v": 0
+    },
+    {
+      "_id": "695974dd5b9608b1eb8fc681",
+      "name": "TensorFlow",
+      "slug": "tensorflow",
+      "description": "An end-to-end open source machine learning platform by Google.",
+      "longDescription": "An end-to-end open source machine learning platform by Google.",
+      "link": "https://www.tensorflow.org",
+      "image": "",
+      "tags": [
+        "Dev",
+        "Library",
+        "Google"
+      ],
+      "pricing": "Free",
+      "features": [
+        "Keras API",
+        "TensorBoard",
+        "TF Lite"
+      ],
+      "pros": [
+        "Industry standard",
+        "Huge ecosystem",
+        "Deployment tools"
+      ],
+      "cons": [
+        "Steep learning curve",
+        "Verbose API"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720e1aa74edf6ee62f602c",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.4,
+      "dataCreated": "2026-01-03T19:58:21.480Z",
+      "__v": 0
+    },
+    {
+      "_id": "695974dd5b9608b1eb8fc684",
+      "name": "PyTorch",
+      "slug": "pytorch",
+      "description": "An open source machine learning framework that accelerates the path from research prototyping to production deployment.",
+      "longDescription": "An open source machine learning framework that accelerates the path from research prototyping to production deployment.",
+      "link": "https://pytorch.org",
+      "image": "",
+      "tags": [
+        "Facebook",
+        "Research",
+        "Dev"
+      ],
+      "pricing": "Free",
+      "features": [
+        "TorchScript",
+        "Distributed training",
+        "Dynamic graph"
+      ],
+      "pros": [
+        "Pythonic",
+        "Flexible",
+        "Loved by researchers"
+      ],
+      "cons": [
+        "Deployment used to be hard",
+        "Mobile support"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720e1aa74edf6ee62f602c",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.6,
+      "dataCreated": "2026-01-03T19:58:21.731Z",
+      "__v": 0
+    },
+    {
+      "_id": "695974de5b9608b1eb8fc687",
+      "name": "H2O.ai",
+      "slug": "h2o-ai",
+      "description": "The leading open source generative AI and machine learning platform.",
+      "longDescription": "The leading open source generative AI and machine learning platform.",
+      "link": "https://h2o.ai",
+      "image": "",
+      "tags": [
+        "AutoML",
+        "Enterprise"
+      ],
+      "pricing": "Freemium",
+      "features": [
+        "AutoML",
+        "Feature engineering",
+        "Model interpretability"
+      ],
+      "pros": [
+        "Driverless AI",
+        "No-code options",
+        "Enterprise support"
+      ],
+      "cons": [
+        "Expensive enterprise",
+        "Resource heavy"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720e1aa74edf6ee62f602c",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.6,
+      "dataCreated": "2026-01-03T19:58:22.067Z",
+      "__v": 0
+    },
+    {
+      "_id": "695974de5b9608b1eb8fc68a",
+      "name": "Algolia",
+      "slug": "algolia",
+      "description": "The world's only end-to-end AI Search and Discovery platform.",
+      "longDescription": "The world's only end-to-end AI Search and Discovery platform.",
+      "link": "https://www.algolia.com",
+      "image": "",
+      "tags": [
+        "Search",
+        "API",
+        "E-commerce"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "NeuralSearch",
+        "Personalization",
+        "Analytics"
+      ],
+      "pros": [
+        "Incredibly fast",
+        "Great DX",
+        "AI re-ranking"
+      ],
+      "cons": [
+        "Expensive at scale",
+        "Complex config"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720e4ba74edf6ee62f602f",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.7,
+      "dataCreated": "2026-01-03T19:58:22.342Z",
+      "__v": 0
+    },
+    {
+      "_id": "695974de5b9608b1eb8fc68d",
+      "name": "Crossing Minds",
+      "slug": "crossing-minds",
+      "description": "The smartest recommendation platform for e-commerce and content.",
+      "longDescription": "The smartest recommendation platform for e-commerce and content.",
+      "link": "https://www.crossingminds.com",
+      "image": "",
+      "tags": [
+        "B2B",
+        "E-commerce"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Behavioral prediction",
+        "Real-time",
+        "Shopify app"
+      ],
+      "pros": [
+        "Cookie-less",
+        "High accuracy",
+        "Easy integration"
+      ],
+      "cons": [
+        "B2B only",
+        "Cost"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720e4ba74edf6ee62f602f",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4,
+      "dataCreated": "2026-01-03T19:58:22.597Z",
+      "__v": 0
+    },
+    {
+      "_id": "695974de5b9608b1eb8fc690",
+      "name": "Recombee",
+      "slug": "recombee",
+      "description": "Real-time AI recommendation engine via API.",
+      "longDescription": "Real-time AI recommendation engine via API.",
+      "link": "https://www.recombee.com",
+      "image": "",
+      "tags": [
+        "API",
+        "Dev",
+        "SaaS"
+      ],
+      "pricing": "Paid",
+      "features": [
+        "Personalized search",
+        "Related items",
+        "Business rules"
+      ],
+      "pros": [
+        "Flexible",
+        "Multiple scenarios",
+        "Real-time"
+      ],
+      "cons": [
+        "Requires dev work",
+        "Pricing tiers"
+      ],
+      "posted_by": "Admin",
+      "posted_by_email": "",
+      "status": true,
+      "category": "66720e4ba74edf6ee62f602f",
+      "isFeatured": false,
+      "isVerified": true,
+      "rating": 4.6,
+      "dataCreated": "2026-01-03T19:58:22.906Z",
+      "__v": 0
+    }
+  ],
+  "categories": [
+    {
+      "_id": "666f21e53e4d3207fbeb3f02",
+      "name": "Chat Bots",
+      "icon": "/aitools/categories/chatbots.svg",
+      "description": "Explore the best AI Large Language Model Tools in our curated category. Dive into cutting-edge solutions, compare features, and harness the power of LLMs."
+    },
+    {
+      "_id": "66720df1a74edf6ee62f602a",
+      "name": "Video and Image Editing",
+      "icon": "/aitools/categories/video-and-image-editing.svg",
+      "description": "Advanced tools for enhancing, editing, and creating high-quality images and videos using AI technology. These tools can automatically apply filters, edit content, and even create new visuals from scratch, making multimedia content creation more efficient."
+    },
+    {
+      "_id": "66720e0ca74edf6ee62f602b",
+      "name": "Natural Language Processing (NLP)",
+      "icon": "/aitools/categories/natural-language-processing-nlp.svg",
+      "description": "AI systems that understand, interpret, and generate human language for various applications such as chatbots, translation services, and text analytics. They enable more natural interactions between humans and machines."
+    },
+    {
+      "_id": "66720e1aa74edf6ee62f602c",
+      "name": "Machine Learning",
+      "icon": "/aitools/categories/machine-learning.svg",
+      "description": "Algorithms and models that enable computers to learn from data and make predictive decisions. These tools are fundamental in developing intelligent applications that improve over time with more data."
+    },
+    {
+      "_id": "66720e2aa74edf6ee62f602d",
+      "name": "Data Analysis and Predictive Analytics",
+      "icon": "/aitools/categories/data-analysis-and-predictive-analytics.svg",
+      "description": "Tools for analyzing complex data sets and forecasting future trends based on historical data. They help businesses make informed decisions by uncovering patterns and insights from large volumes of data."
+    },
+    {
+      "_id": "66720e3ba74edf6ee62f602e",
+      "name": "Voice and Speech Recognition",
+      "icon": "/aitools/categories/voice-and-speech-recognition.svg",
+      "description": "AI technologies that convert speech to text and understand spoken language commands. They are widely used in virtual assistants, transcription services, and hands-free device operation."
+    },
+    {
+      "_id": "66720e4ba74edf6ee62f602f",
+      "name": "Recommendation Systems",
+      "icon": "/aitools/categories/recommendation-systems.svg",
+      "description": "AI tools that suggest products, content, or actions tailored to user preferences and behavior. They are essential for improving user experience on platforms like e-commerce sites and streaming services."
+    },
+    {
+      "_id": "66720e63a74edf6ee62f6030",
+      "name": "Content Creation and Text Generation",
+      "icon": "/aitools/categories/content-creation-and-text-generation.svg",
+      "description": "AI-driven platforms for generating written content, from articles and reports to creative writing. They help automate content production and can assist in brainstorming and drafting processes."
+    },
+    {
+      "_id": "66720e73a74edf6ee62f6031",
+      "name": "Virtual Assistants and Automation",
+      "icon": "/aitools/categories/virtual-assistants-and-automation.svg",
+      "description": "AI tools that automate repetitive tasks and provide virtual assistance to improve productivity. These include scheduling, reminders, and workflow automation, making day-to-day operations more efficient."
+    },
+    {
+      "_id": "66720e83a74edf6ee62f6032",
+      "name": "Cybersecurity and Fraud Detection",
+      "icon": "/aitools/categories/cybersecurity-and-fraud-detection.svg",
+      "description": "AI applications focused on protecting against cyber threats and detecting fraudulent activities. They use advanced algorithms to monitor, detect, and respond to security incidents in real-time."
+    },
+    {
+      "_id": "66720e90a74edf6ee62f6033",
+      "name": "Healthcare AI",
+      "icon": "/aitools/categories/healthcare-ai.svg",
+      "description": "AI technologies used in medical diagnosis, treatment planning, and improving patient care. They assist in analyzing medical data, predicting health outcomes, and personalizing patient treatment plans."
+    },
+    {
+      "_id": "66720ea0a74edf6ee62f6034",
+      "name": "Finance AI",
+      "icon": "/aitools/categories/finance-ai.svg",
+      "description": "AI tools for financial analysis, automated trading, risk management, and investment strategies. These tools help in making data-driven financial decisions and automating financial processes."
+    },
+    {
+      "_id": "66720eaba74edf6ee62f6035",
+      "name": "Education AI",
+      "icon": "/aitools/categories/education-ai.svg",
+      "description": "AI-powered solutions for personalized learning, educational resource creation, and academic assistance. They enhance learning experiences through adaptive learning technologies and intelligent tutoring systems."
+    },
+    {
+      "_id": "66720eb7a74edf6ee62f6036",
+      "name": "Gaming AI",
+      "icon": "/aitools/categories/gaming-ai.svg",
+      "description": "AI technologies enhancing game development, player interactions, and creating immersive gaming experiences. They enable dynamic game environments, smarter NPCs, and personalized gaming experiences."
+    },
+    {
+      "_id": "66720ec3a74edf6ee62f6037",
+      "name": "Marketing and Personalization",
+      "icon": "/aitools/categories/marketing-and-personalization.svg",
+      "description": "AI tools for creating targeted marketing campaigns and personalized user experiences to boost engagement. They analyze user data to deliver customized content and recommendations."
+    },
+    {
+      "_id": "66720ed6a74edf6ee62f6038",
+      "name": "Sentiment Analysis",
+      "icon": "/aitools/categories/sentiment-analysis.svg",
+      "description": "AI systems that analyze and understand human emotions expressed in text for various applications such as customer feedback analysis and market research. They help in gauging public sentiment and opinions."
+    },
+    {
+      "_id": "66720eeca74edf6ee62f6039",
+      "name": "Smart Home and IoT AI",
+      "icon": "/aitools/categories/smart-home-and-iot-ai.svg",
+      "description": "AI solutions for automating home devices and managing Internet of Things (IoT) ecosystems. They enhance home automation, energy management, and smart device interactions."
+    },
+    {
+      "_id": "66720effa74edf6ee62f603a",
+      "name": "Augmented Reality (AR) and Virtual Reality (VR)",
+      "icon": "/aitools/categories/augmented-reality-and-virtual-reality.svg",
+      "description": "AI-enhanced technologies that create immersive augmented and virtual reality experiences. They are used in gaming, training, and various simulation applications."
+    }
+  ]
+}
